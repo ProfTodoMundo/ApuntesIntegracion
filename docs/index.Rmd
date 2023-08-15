@@ -1,0 +1,86 @@
+---
+title: "Taller de Matemáticas del CHyCS"
+author:
+  - name: "Carlos E. Martinez-Rodríguez"
+    affiliation: "Universidad Autónoma de la Ciudad de México (UACM)"
+    email: "carlos.martinez@uacm.edu.mx"
+date: "2023-08-12"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+    code_folding: show
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+# Presentación
+
+En esta página encontrarás ejercicios adicionales a los vistos en clase
+
+## Información personal y redes sociales
+- [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
+
+
+# Recta real
+
+## Clase 3: 15 de agosto
+
+Para la siguiente lista de valores, determina quién es el mayor de los dos y ubícalos en la recta real.
+
+
+1. Determina quién es el mayor de los dos valores y ubícalos en la recta real.
+   i. a = 7/19, b = 11/21
+   ii. a = 3/13, b = 5/17
+   iii. a = 9/28, b = 4/12
+   iv. a = 2/10, b = 6/23
+   v. a = 14/36, b = 8/40
+   vi. a = 1/22, b = 15/31
+   vii. a = 10/29, b = 12/37
+   viii. a = 5/18, b = 7/32
+   ix. a = 16/44, b = 20/43
+   x. a = 6/25, b = 13/35
+   xi. a = 8/33, b = 3/15
+   xii. a = 21/42, b = 22/45
+   xiii. a = 19/41, b = 11/27
+   xiv. a = 17/34, b = 4/9
+   xv. a = 23/39, b = 9/20
+  
+
+2. Determina quién es el mayor de los dos valores y ubícalos en la recta real.
+   i. a = 6/15, b = 18/30
+   ii. a = 9/18, b = 20/40
+   iii. a = 7/21, b = 15/45
+   iv. a = 5/10, b = 10/20
+   v. a = 3/9, b = 12/36
+   vi. a = 11/22, b = 24/48
+   vii. a = 8/24, b = 16/40
+   viii. a = 4/12, b = 9/27
+   ix. a = 14/35, b = 28/42
+   x. a = 2/8, b = 6/24
+   xi. a = 10/25, b = 21/42
+   xii. a = 13/26, b = 27/54
+   xiii. a = 12/30, b = 25/35
+   xiv. a = 1/5, b = 5/25
+   xv. a = 16/32, b = 36/45
+   
+   
+# Ejercicios adicionales
+
+1.  Determina cual es el mayor y ubícalos en la recta real
+   i. a = 24/26, b = 25/30
+   ii. a = 32/38, b = 7/14
+   iii. a = 40/44, b = 42/43
+   iv. a = 1/8, b = 3/11
+   v. a = 13/37, b = 18/40
+   vi. a = 1/2, b = 2/3
+   vii. a = 17/34, b = 38/48
+   vii. a = 19/38, b = 42/45
+   ix. a = 22/44, b = 40/43
+   x. a = 23/46, b = 41/44
+   xi. a = 29/43, b = 33/44
