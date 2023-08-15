@@ -11,6 +11,7 @@ output:
     toc_float: true
     toc_depth: 3
     code_folding: show
+    css: styles.css
 ---
 
 ```{r setup, include=FALSE}
@@ -28,12 +29,62 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 
 # Semana 1
 
-# Clase 2-3
+1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
 
+    i. n=5, a=2, b=8
+    ii. n=3, a=1, b=7
+    iii. n=4, a=2, b=9
+    iv. n=2, a=1, b=5
+    v. n=6, a=3, b=7
+    vi. n=3, a=2, b=6
+    vii. n=4, a=1, b=6
+    viii. n=5, a=3, b=9
+    ix. n=2, a=1, b=4
+    x. n=4, a=2, b=8
+    xi. n=5, a=3, b=9
+    xii. n=2, a=1, b=7
+    xiii. n=4, a=2, b=6
+    xiv. n=3, a=1, b=5
+    xv. n=6, a=4, b=8
+
+
+2. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
+
+    i. n=5, a=-2, b=8
+    ii. n=3, a=-1, b=7
+    iii. n=4, a=-2, b=9
+    iv. n=2, a=-1, b=5
+    v. n=6, a=-3, b=7
+    vi. n=3, a=-2, b=6
+    vii. n=4, a=-1, b=6
+    viii. n=5, a=-3, b=9
+    ix. n=2, a=-1, b=4
+    x. n=4, a=-2, b=8
+    xi. n=5, a=-3, b=9
+    xii. n=2, a=-1, b=7
+    xiii. n=4, a=-2, b=6
+    xiv. n=3, a=-1, b=5
+    xv. n=6, a=-4, b=8
+
+3. Para la siguiente lista de ejercicios determina las coordenadas de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, entre $-2b$ y $2b$:
+
+    i. n=15, a=22, b=31
+    ii. n=5, a=9, b=25
+    iii. n=27, a=7, b=35
+    iv. n=9, a=16, b=40
+    v. n=3, a=2, b=15
+    vi. n=18, a=26, b=9
+    vii. n=7, a=8, b=28
+    viii. n=12, a=10, b=39
+    ix. n=20, a=17, b=34
+    x. n=10, a=44, b=6
+    xi. n=25, a=21, b=11
+    xii. n=8, a=27, b=38
+    xiii. n=29, a=32, b=43
+    xiv. n=13, a=19, b=24
+    xv. n=4, a=37, b=42
 
 # Semana 2
-
-## Clase 4
 
 Para la siguiente lista de valores, determina quién es el mayor de los dos y ubícalos en la recta real.
 
@@ -76,15 +127,58 @@ Para la siguiente lista de valores, determina quién es el mayor de los dos y ub
    
 ## Ejercicios adicionales
 
-1.  Determina cual es el mayor y ubícalos en la recta real
-   i. a = 24/26, b = 25/30
-   ii. a = 32/38, b = 7/14
-   iii. a = 40/44, b = 42/43
-   iv. a = 1/8, b = 3/11
-   v. a = 13/37, b = 18/40
-   vi. a = 1/2, b = 2/3
-   vii. a = 17/34, b = 38/48
-   vii. a = 19/38, b = 42/45
-   ix. a = 22/44, b = 40/43
-   x. a = 23/46, b = 41/44
-   xi. a = 29/43, b = 33/44
+1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$
+
+    i. n=5, a=2, b=8
+    ii. n=3, a=1, b=7
+    iii. n=4, a=2, b=9
+    iv. n=2, a=1, b=5
+    v. n=6, a=3, b=7
+    vi. n=3, a=2, b=6
+    vii. n=4, a=1, b=6
+    viii. n=5, a=3, b=9
+    ix. n=2, a=1, b=4
+    x. n=4, a=2, b=8
+
+2. Realiza lo mismo que el ejercicio anterior para las siguientes ternas:
+    i. n=5, a=-2, b=8
+    ii. n=3, a=-1, b=7
+    iii. n=4, a=-2, b=9
+    iv. n=2, a=-1, b=5
+    v. n=6, a=-3, b=7
+    vi. n=3, a=-2, b=6
+    vii. n=4, a=-1, b=6
+    viii. n=5, a=-3, b=9
+    ix. n=2, a=-1, b=4
+    x. n=4, a=-2, b=8
+    xi. n=5, a=-3, b=9
+    xii. n=2, a=-1, b=7
+    xiii. n=4, a=-2, b=6
+    xiv. n=3, a=-1, b=5
+    xv. n=6, a=-4, b=8
+
+3. Para la siguiente lista de ejercicios determina las coordenadas de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, entre $-2b$ y $2b$:
+
+    i. n=19, a=41, b=33
+    ii. n=6, a=36, b=45
+    iii. n=23, a=30, b=14
+    iv. n=28, a=4, b=18
+    v. n=17, a=5, b=26
+    vi. n=11, a=23, b=20
+    vii. n=2, a=25, b=29
+    viii. n=21, a=1, b=41
+    ix. n=14, a=43, b=3
+    x. n=24, a=12, b=22
+
+
+4.  Determina cual es el mayor y ubícalos en la recta real
+    i. a = 24/26, b = 25/30
+    ii. a = 32/38, b = 7/14
+    iii. a = 40/44, b = 42/43
+    iv. a = 1/8, b = 3/11
+    v. a = 13/37, b = 18/40
+    vi. a = 1/2, b = 2/3
+    vii. a = 17/34, b = 38/48
+    vii. a = 19/38, b = 42/45
+    ix. a = 22/44, b = 40/43
+    x. a = 23/46, b = 41/44
