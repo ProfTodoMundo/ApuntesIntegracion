@@ -27,7 +27,9 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 ## Información personal y redes sociales
 - [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
-# Semana 1
+# El Conjunto de los números reales
+
+## Semana 1
 
 1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
 
@@ -84,7 +86,7 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
     xiv. n=13, a=19, b=24
     xv. n=4, a=37, b=42
 
-# Semana 2
+## Semana 2
 
 Para la siguiente lista de valores, determina quién es el mayor de los dos y ubícalos en la recta real.
 
