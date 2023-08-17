@@ -19,9 +19,6 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-
-
 # Presentación
 
 En esta página encontrarás ejercicios adicionales a los vistos en clase
@@ -30,6 +27,7 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 - [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
 ![Acceder al documento](codigo_qr.png){width=300px}
+
 
 # Programa del Taller de Matemáticas
 
@@ -220,6 +218,8 @@ Para los temas 1, 4 y 6 se puede usar como guía el libro de Miller [1], donde s
 México. 
 
 
+=======
+>>>>>>> 9cedbec1909e7d938ab813396fdf5d269e36ea76
 # El Conjunto de los números reales
 
 ## Semana 1
