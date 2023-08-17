@@ -12,6 +12,8 @@ output:
     toc_depth: 3
     code_folding: show
     css: styles.css
+    theme: united  # many options for theme, this one is my favorite.
+    highlight: tango  # specifies the syntax highlighting style
 ---
 
 ```{r setup, include=FALSE}
