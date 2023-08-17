@@ -1,17 +1,8 @@
 ---
-title: "Taller de Matemáticas del CHyCS"
-author:
-  - name: "Carlos E. Martinez-Rodríguez"
-    affiliation: "Universidad Autónoma de la Ciudad de México (UACM)"
-    email: "carlos.martinez@uacm.edu.mx"
-date: "2023-08-12"
-output:
-  html_document:
-    toc: true
-    toc_float: true
-    toc_depth: 3
-    code_folding: show
-    css: styles.css
+title: "programa"
+author: "Carlos E Martinez R"
+date: "2023-08-17"
+output: html_document
 ---
 
 ```{r setup, include=FALSE}
@@ -19,19 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 
-
-
-
-# Presentación
-
-En esta página encontrarás ejercicios adicionales a los vistos en clase
-
-## Información personal y redes sociales
-- [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
-
-![Acceder al documento](codigo_qr.png){width=300px}
-
-# Programa del Taller de Matemáticas
+# Programa del Taller de Matemáticas para Humanidades y Ciencias Sociales 
 
 ## Propósitos generales y metodología 
  
@@ -188,6 +167,7 @@ En general, se recomienda que se privilegie la participación activa de los estu
 Para los temas 1, 4 y 6 se puede usar como guía el libro de Miller [1], donde se proponen investigaciones colaborativas que se pueden proponer como trabajo en equipo. Para los temas 2 y 3, se pueden tomar actividades del libro de Barkovich y Chernicoff [3], que presentan una serie de actividades diseñadas expresamente para ser trabajadas en equipo. Para la primera parte del tema 5 se puede usar Chernicoff [5]. La segunda parte del tema 1 se puede trabajar a partir de lecturas basadas en los siguientes libros: 
 
 
+
 - Dioxiadis, Apostolos. El tío Petros y la Conjetura de Goldbach. Madrid: Ediciones B, 2003. 
 
 - Herzenberguer, Hans Magnus. El diablo de los números. Madrid: Siruela, 2003. 
@@ -218,162 +198,3 @@ Para los temas 1, 4 y 6 se puede usar como guía el libro de Miller [1], donde s
 
 4.	KLINE, Morris. Matemáticas para estudiantes de humanidades, (2002). Ed. Fondo de Cultura Económica. 
 México. 
-
-
-# El Conjunto de los números reales
-
-## Semana 1
-
-1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
-
-    i. n=5, a=2, b=8
-    ii. n=3, a=1, b=7
-    iii. n=4, a=2, b=9
-    iv. n=2, a=1, b=5
-    v. n=6, a=3, b=7
-    vi. n=3, a=2, b=6
-    vii. n=4, a=1, b=6
-    viii. n=5, a=3, b=9
-    ix. n=2, a=1, b=4
-    x. n=4, a=2, b=8
-    xi. n=5, a=3, b=9
-    xii. n=2, a=1, b=7
-    xiii. n=4, a=2, b=6
-    xiv. n=3, a=1, b=5
-    xv. n=6, a=4, b=8
-
-
-2. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
-
-    i. n=5, a=-2, b=8
-    ii. n=3, a=-1, b=7
-    iii. n=4, a=-2, b=9
-    iv. n=2, a=-1, b=5
-    v. n=6, a=-3, b=7
-    vi. n=3, a=-2, b=6
-    vii. n=4, a=-1, b=6
-    viii. n=5, a=-3, b=9
-    ix. n=2, a=-1, b=4
-    x. n=4, a=-2, b=8
-    xi. n=5, a=-3, b=9
-    xii. n=2, a=-1, b=7
-    xiii. n=4, a=-2, b=6
-    xiv. n=3, a=-1, b=5
-    xv. n=6, a=-4, b=8
-
-3. Para la siguiente lista de ejercicios determina las coordenadas de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, entre $-2b$ y $2b$:
-
-    i. n=15, a=22, b=31
-    ii. n=5, a=9, b=25
-    iii. n=27, a=7, b=35
-    iv. n=9, a=16, b=40
-    v. n=3, a=2, b=15
-    vi. n=18, a=26, b=9
-    vii. n=7, a=8, b=28
-    viii. n=12, a=10, b=39
-    ix. n=20, a=17, b=34
-    x. n=10, a=44, b=6
-    xi. n=25, a=21, b=11
-    xii. n=8, a=27, b=38
-    xiii. n=29, a=32, b=43
-    xiv. n=13, a=19, b=24
-    xv. n=4, a=37, b=42
-
-## Semana 2
-
-Para la siguiente lista de valores, determina quién es el mayor de los dos y ubícalos en la recta real.
-
-
-1. Determina quién es el mayor de los dos valores y ubícalos en la recta real.
-   i. a = 7/19, b = 11/21
-   ii. a = 3/13, b = 5/17
-   iii. a = 9/28, b = 4/12
-   iv. a = 2/10, b = 6/23
-   v. a = 14/36, b = 8/40
-   vi. a = 1/22, b = 15/31
-   vii. a = 10/29, b = 12/37
-   viii. a = 5/18, b = 7/32
-   ix. a = 16/44, b = 20/43
-   x. a = 6/25, b = 13/35
-   xi. a = 8/33, b = 3/15
-   xii. a = 21/42, b = 22/45
-   xiii. a = 19/41, b = 11/27
-   xiv. a = 17/34, b = 4/9
-   xv. a = 23/39, b = 9/20
-  
-
-2. Determina quién es el mayor de los dos valores y ubícalos en la recta real.
-   i. a = 6/15, b = 18/30
-   ii. a = 9/18, b = 20/40
-   iii. a = 7/21, b = 15/45
-   iv. a = 5/10, b = 10/20
-   v. a = 3/9, b = 12/36
-   vi. a = 11/22, b = 24/48
-   vii. a = 8/24, b = 16/40
-   viii. a = 4/12, b = 9/27
-   ix. a = 14/35, b = 28/42
-   x. a = 2/8, b = 6/24
-   xi. a = 10/25, b = 21/42
-   xii. a = 13/26, b = 27/54
-   xiii. a = 12/30, b = 25/35
-   xiv. a = 1/5, b = 5/25
-   xv. a = 16/32, b = 36/45
-   
-   
-## Ejercicios adicionales
-
-1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$
-
-    i. n=5, a=2, b=8
-    ii. n=3, a=1, b=7
-    iii. n=4, a=2, b=9
-    iv. n=2, a=1, b=5
-    v. n=6, a=3, b=7
-    vi. n=3, a=2, b=6
-    vii. n=4, a=1, b=6
-    viii. n=5, a=3, b=9
-    ix. n=2, a=1, b=4
-    x. n=4, a=2, b=8
-
-2. Realiza lo mismo que el ejercicio anterior para las siguientes ternas:
-    i. n=5, a=-2, b=8
-    ii. n=3, a=-1, b=7
-    iii. n=4, a=-2, b=9
-    iv. n=2, a=-1, b=5
-    v. n=6, a=-3, b=7
-    vi. n=3, a=-2, b=6
-    vii. n=4, a=-1, b=6
-    viii. n=5, a=-3, b=9
-    ix. n=2, a=-1, b=4
-    x. n=4, a=-2, b=8
-    xi. n=5, a=-3, b=9
-    xii. n=2, a=-1, b=7
-    xiii. n=4, a=-2, b=6
-    xiv. n=3, a=-1, b=5
-    xv. n=6, a=-4, b=8
-
-3. Para la siguiente lista de ejercicios determina las coordenadas de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, entre $-2b$ y $2b$:
-
-    i. n=19, a=41, b=33
-    ii. n=6, a=36, b=45
-    iii. n=23, a=30, b=14
-    iv. n=28, a=4, b=18
-    v. n=17, a=5, b=26
-    vi. n=11, a=23, b=20
-    vii. n=2, a=25, b=29
-    viii. n=21, a=1, b=41
-    ix. n=14, a=43, b=3
-    x. n=24, a=12, b=22
-
-
-4.  Determina cual es el mayor y ubícalos en la recta real
-    i. a = 24/26, b = 25/30
-    ii. a = 32/38, b = 7/14
-    iii. a = 40/44, b = 42/43
-    iv. a = 1/8, b = 3/11
-    v. a = 13/37, b = 18/40
-    vi. a = 1/2, b = 2/3
-    vii. a = 17/34, b = 38/48
-    vii. a = 19/38, b = 42/45
-    ix. a = 22/44, b = 40/43
-    x. a = 23/46, b = 41/44
