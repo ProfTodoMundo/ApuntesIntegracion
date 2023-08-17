@@ -18,7 +18,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 # Presentación
 
 En esta página encontrarás ejercicios adicionales a los vistos en clase
@@ -43,7 +42,7 @@ El desarrollo de las Matemáticas es una actividad humana y, por lo tanto, está
  
 ### 1. Introducción al pensamiento matemático 
  
-Propósito: Que el estudiante identifique habilidades de razonamiento lógico matemático tales como clasificación, reconocimiento de patrones, generalización, abstracción y deducción para que las valore como elementos inherentes de las Matemáticas. Que el estudiante reflexione acerca de las Matemáticas  como una actividad humana y conozca y entienda algunos aspectos de su desarrollo histórico.  
+**Propósito:** Que el estudiante identifique habilidades de razonamiento lógico matemático tales como clasificación, reconocimiento de patrones, generalización, abstracción y deducción para que las valore como elementos inherentes de las Matemáticas. Que el estudiante reflexione acerca de las Matemáticas  como una actividad humana y conozca y entienda algunos aspectos de su desarrollo histórico.  
  
 1.1 Razonamiento matemático 
 
@@ -55,7 +54,7 @@ Propósito: Que el estudiante identifique habilidades de razonamiento lógico ma
  
 ### 2. Aritmética  
  
-Propósito: Que el estudiante reconozca las características básicas de los diferentes tipos de números reales y su representación en la recta numérica para que entienda sus propiedades y equivalencias y las aplique al realizar operaciones básicas entre ellos.  
+**Propósito:** Que el estudiante reconozca las características básicas de los diferentes tipos de números reales y su representación en la recta numérica para que entienda sus propiedades y equivalencias y las aplique al realizar operaciones básicas entre ellos.  
  
 2.1 Números reales 
 
@@ -76,7 +75,7 @@ Propósito: Que el estudiante reconozca las características básicas de los dif
  
 ### 3. Razones y proporciones 
  
-Propósito: Que el estudiante pueda identificar de manera operativa cuándo dos cantidades son directamente proporcionales y reconozca el razonamiento que está detrás de la “regla de tres” para que pueda resolver problemas de razones y proporciones enmarcados en el contexto de las Ciencias Sociales. 
+**Propósito:**: Que el estudiante pueda identificar de manera operativa cuándo dos cantidades son directamente proporcionales y reconozca el razonamiento que está detrás de la “regla de tres” para que pueda resolver problemas de razones y proporciones enmarcados en el contexto de las Ciencias Sociales. 
  
 3.1 Razonamiento proporcional 
 
@@ -100,7 +99,7 @@ Propósito: Que el estudiante pueda identificar de manera operativa cuándo dos 
  
 ### 4. Conjuntos 
  
-Propósito: Que el estudiante pueda clasificar objetos y situaciones agrupándolas en conjuntos y asociando las relaciones entre ellas con las operaciones de conjuntos para que pueda aplicarlas al análisis de encuestas. 
+**Propósito:** Que el estudiante pueda clasificar objetos y situaciones agrupándolas en conjuntos y asociando las relaciones entre ellas con las operaciones de conjuntos para que pueda aplicarlas al análisis de encuestas. 
  
 4.1  Conceptos básicos de la Teoría de Conjuntos 
 
@@ -125,7 +124,7 @@ Propósito: Que el estudiante pueda clasificar objetos y situaciones agrupándol
  
 ### 5. Análisis gráfico de la información 
  
-Propósito: Que el estudiante conozca las características de la representación gráfica para que sea capaz de decodificarla y representar información usando una gráfica. 
+**Propósito:** Que el estudiante conozca las características de la representación gráfica para que sea capaz de decodificarla y representar información usando una gráfica. 
  
 5.1 Representación gráfica de dos variables correlacionadas 
 
@@ -153,7 +152,7 @@ Propósito: Que el estudiante conozca las características de la representación
  
 ### 6. Introducción a la Estadística 
  
-Propósito: Que el estudiante conozca los elementos básicos de la estadística y sus fundamentos para que analice información en contextos simples relacionados con las Ciencias Sociales. 
+**Propósito:** Que el estudiante conozca los elementos básicos de la estadística y sus fundamentos para que analice información en contextos simples relacionados con las Ciencias Sociales. 
  
 6.1 Distribuciones de frecuencia y gráficas 
 
@@ -218,8 +217,7 @@ Para los temas 1, 4 y 6 se puede usar como guía el libro de Miller [1], donde s
 México. 
 
 
-=======
->>>>>>> 9cedbec1909e7d938ab813396fdf5d269e36ea76
+
 # El Conjunto de los números reales
 
 ## Semana 1
