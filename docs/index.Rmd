@@ -18,7 +18,6 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 # Presentación
 
 En esta página encontrarás ejercicios adicionales a los vistos en clase
