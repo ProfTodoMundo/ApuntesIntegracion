@@ -1,0 +1,65 @@
+---
+title: Sucesiones y Series Interactivas
+output: html_document
+runtime: shiny
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Sucesiones y Series
+```{r}
+library(shiny)
+library(markdown)
+
+ui <- fluidPage(
+  titlePanel("Sucesiones y Series"),
+  sidebarLayout(
+    sidebarPanel(
+      selectInput("tipo", "Seleccionar tipo:", c("Sucesión", "Serie")),
+      conditionalPanel(
+        condition = "input.tipo == 'Sucesión'",
+        selectInput("tipo_sucesion", "Tipo de Sucesión:", c("Aritmética", "Geométrica", "Cuadrática"))
+      ),
+      numericInput("primer_termino", "Primer Término:", 1),
+      numericInput("otro_valor", "Otro Valor:", 0),
+      actionButton("calcular", "Calcular")
+    ),
+    mainPanel(
+      h2("Resultado"),
+      verbatimTextOutput("resultado")
+    )
+  )
+)
+
+server <- function(input, output) {
+  observeEvent(input$calcular, {
+    tipo <- input$tipo
+    primer_termino <- input$primer_termino
+    otro_valor <- input$otro_valor
+    
+    if (tipo == "Sucesión") {
+      tipo_sucesion <- input$tipo_sucesion
+      if (tipo_sucesion == "Aritmética") {
+        diferencia <- otro_valor
+        resultado <- seq(primer_termino, length.out = 10, by = diferencia)
+      } else if (tipo_sucesion == "Geométrica") {
+        razon <- otro_valor
+        resultado <- primer_termino * razon^(0:9)
+      } else if (tipo_sucesion == "Cuadrática") {
+        resultado <- seq(primer_termino^2, length.out = 10, by = primer_termino)
+      }
+    } else {
+      resultado <- numeric()
+    }
+    
+    output$resultado <- renderPrint({
+      resultado
+    })
+  })
+}
+
+shinyApp(ui, server)
+```
+

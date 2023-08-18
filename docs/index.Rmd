@@ -26,7 +26,7 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 ## Información personal y redes sociales
 - [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
-![Acceder al documento](codigo_qr.png){width=300px}
+![Acceder al documento](codigo_qr.png){width=200px}
 # El Conjunto de los números reales
 
 ## Semana 1
@@ -184,3 +184,107 @@ Para la siguiente lista de valores, determina quién es el mayor de los dos y ub
     vii. a = 19/38, b = 42/45
     ix. a = 22/44, b = 40/43
     x. a = 23/46, b = 41/44
+
+# Aritmética
+
+## Máximo Común Divisor y Mínimo Común Múltiplo
+
+1. Encuentra el M.C.D de los siguientes pares de números
+
+    i. m.c.d(15, 25)
+    ii. m.c.d(10, 30)
+    iii. m.c.d(7, 49)
+    iv. m.c.d(20, 40)
+    v. m.c.d(12, 48)
+    vi. m.c.d(9, 18)
+    vii. m.c.d(4, 44)
+    viii. m.c.d(21, 35)
+    ix. m.c.d(28, 42)
+    x. m.c.d(6, 36)
+    xi. m.c.d(16, 32)
+    xii. m.c.d(24, 48)
+    xiii. m.c.d(8, 16)
+    xiv. m.c.d(5, 45)
+    xv. m.c.d(3, 33)
+
+2. Encuentra el M.C.D de las siguientes ternas de números
+
+    i. m.c.d(10, 25, 35)
+    ii. m.c.d(15, 30, 45)
+    iii. m.c.d(12, 18, 36)
+    iv. m.c.d(20, 40, 50)
+    v. m.c.d(8, 24, 32)
+    vi. m.c.d(7, 14, 21)
+    vii. m.c.d(6, 42, 48)
+    viii. m.c.d(9, 27, 45)
+    ix. m.c.d(4, 44, 48)
+    x. m.c.d(16, 32, 48)
+    xi. m.c.d(22, 33, 44)
+    xii. m.c.d(25, 35, 49)
+    xiii. m.c.d(3, 9, 18)
+    xiv. m.c.d(28, 36, 42)
+    xv. m.c.d(5, 10, 15)
+
+3. Encuentra el mínimo común múltipo de los siguientes pares de números
+
+    i. m.c.m(10, 25)
+    ii. m.c.m(15, 30)
+    iii. m.c.m(12, 18)
+    iv. m.c.m(20, 40)
+    v. m.c.m(8, 24)
+    vi. m.c.m(7, 14)
+    vii. m.c.m(6, 42)
+    viii. m.c.m(9, 27)
+    ix. m.c.m(4, 44)
+    x. m.c.m(16, 32)
+    xi. m.c.m(22, 33)
+    xii. m.c.m(25, 35)
+    xiii. m.c.m(3, 9)
+    xiv. m.c.m(28, 36)
+    xv. m.c.m(5, 10)
+
+4. Encuentra el mínimo común múltipo de las siguientes ternas de números
+
+    i. m.c.m(10, 25, 35)
+    ii. m.c.m(15, 30, 45)
+    iii. m.c.m(12, 18, 36)
+    iv. m.c.m(20, 40, 50)
+    v. m.c.m(8, 24, 32)
+    vi. m.c.m(7, 14, 21)
+    vii. m.c.m(6, 42, 48)
+    viii. m.c.m(9, 27, 45)
+    ix. m.c.m(4, 44, 48)
+    x. m.c.m(16, 32, 48)
+    xi. m.c.m(22, 33, 44)
+    xii. m.c.m(25, 35, 49)
+    xiii. m.c.m(3, 9, 18)
+    xiv. m.c.m(28, 36, 42)
+    xv. m.c.m(5, 10, 15)
+
+5. Encuentra el m.c.d o m.c.m según se indique
+
+    i. m.c.m(7, 14)
+    ii. m.c.m(10, 20)
+    iii. m.c.m(18, 36)
+    iv. m.c.m(25, 35)
+    v. m.c.m(9, 27)
+    vi. m.c.m(11, 22)
+    vii. m.c.m(30, 45)
+    viii. m.c.m(16, 32)
+    ix. m.c.m(12, 48)
+    x. m.c.m(6, 18)
+    xi. m.c.m(4, 8, 16)
+    xii. m.c.m(6, 12, 18)
+    xiii. m.c.m(15, 25, 35)
+    xiv. m.c.m(10, 20, 30)
+    xv. m.c.m(21, 28, 42)
+    xvi. m.c.d(6, 18)
+    xvii. m.c.d(9, 27)
+    xviii. m.c.d(15, 25)
+    xix. m.c.d(24, 48)
+    xx. m.c.d(35, 49)
+    xxi. m.c.d(4, 8, 12)
+    xxii. m.c.d(9, 18, 27)
+    xxiii. m.c.d(7, 14, 21)
+    xxiv. m.c.d(20, 40, 50)
+    xxv. m.c.d(16, 32, 48)

@@ -1,0 +1,140 @@
+---
+title: Sucesiones Aritméticas, Geométricas y Patrones
+output: html_document
+---
+
+
+# Sucesiones Aritmeticas
+
+Definicion 1. Una sucesión geométrica es una secuencia de números en la que cada término, a partir del segundo, se obtiene multiplicando el término anterior por una constante llamada razón $r$. La sucesión se denota como $(a_n)$ y tiene la forma:
+
+$$a_1, a_2, a_3, \ldots, a_n, \ldots$$
+
+donde $a_1$ es el primer término y $r$ es la razón común entre los términos sucesivos.
+
+
+```{r}
+# Función para calcular el término n-ésimo de una sucesión aritmética
+arithmetic_sequence <- function(a1, d, n) {
+  sequence <- numeric(n)  # Crear un vector para almacenar la sucesión
+  for (i in 1:n) {
+    sequence[i] <- a1 + (i - 1) * d
+  }
+  return(sequence)
+}
+
+# Valores iniciales: primer término (a1), diferencia común (d) y número de términos (n)
+a1 <- 3
+d <- 5
+n <- 10
+
+# Calcular la sucesión aritmética hasta el n-ésimo valor
+sequence <- arithmetic_sequence(a1, d, n)
+
+# Imprimir la sucesión
+cat("La sucesión aritmética hasta el término", n, "es:", paste(sequence, collapse = ", "), "\n")
+```
+
+# Sucesiones Geométricas
+
+
+```{r}
+# Función para calcular el término n-ésimo de una sucesión geométrica
+geometric_sequence <- function(a1, r, n) {
+  sequence <- numeric(n)  # Crear un vector para almacenar la sucesión
+  for (i in 1:n) {
+    sequence[i] <- a1 * r^(i - 1)
+  }
+  return(sequence)
+}
+
+# Valores iniciales: primer término (a1), razón (r) y número de términos (n)
+a1 <- 2
+r <- 3
+n <- 10
+
+# Calcular la sucesión geométrica hasta el n-ésimo término
+sequence <- geometric_sequence(a1, r, n)
+
+# Imprimir la sucesión
+cat("La sucesión geométrica hasta el término", n, "es:", paste(sequence, collapse = ", "), "\n")
+```
+
+# Sucesiones Cuadraticas
+
+```{r}
+# Función para generar una sucesión cuadrática con suma constante k
+quadratic_sequence_with_sum <- function(n, k) {
+  sequence <- numeric(n)
+  for (i in 1:n) {
+    sequence[i] <- i^2 + k
+  }
+  return(sequence)
+}
+
+# Número de términos en la sucesión
+n <- 10
+
+# Valor fijo a sumar en cada término
+k <- 5
+
+# Generar la sucesión cuadrática con suma constante k
+sequence <- quadratic_sequence_with_sum(n, k)
+
+# Imprimir la sucesión
+cat("La sucesión cuadrática con suma constante k es:", paste(sequence, collapse = ", "), "\n")
+```
+
+
+
+# Serie Aritmetica
+
+
+```{r}
+# Función para calcular el término n-ésimo de una serie geométrica
+geometric_series <- function(a1, r, n) {
+  series <- numeric(n)  # Crear un vector para almacenar la serie
+  for (i in 1:n) {
+    series[i] <- a1 * r^(i - 1)
+  }
+  return(series)
+}
+
+# Valores iniciales: primer término (a1), razón (r) y número de términos (n)
+a1 <- 2
+r <- 3
+n <- 10
+
+# Calcular la serie geométrica hasta el n-ésimo término
+series <- geometric_series(a1, r, n)
+
+# Imprimir la serie
+cat("La serie geométrica hasta el término", n, "es:", paste(series, collapse = ", "), "\n")
+```
+
+
+# Series Cuadráticas
+
+
+```{r}
+# Función para generar una serie cuadrática con suma constante k
+quadratic_series_with_sum <- function(n, k) {
+  series <- numeric(n)
+  for (i in 1:n) {
+    series[i] <- i^2 + k
+  }
+  return(series)
+}
+
+# Número de términos en la serie
+n <- 10
+
+# Valor fijo a sumar en cada término
+k <- 5
+
+# Generar la serie cuadrática con suma constante k
+series <- quadratic_series_with_sum(n, k)
+
+# Imprimir la serie
+cat("La serie cuadrática con suma constante k es:", paste(series, collapse = ", "), "\n")
+```
