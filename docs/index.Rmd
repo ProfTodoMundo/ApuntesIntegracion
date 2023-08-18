@@ -26,6 +26,192 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 - [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
 ![Acceder al documento](codigo_qr.png){width=200px}
+
+# Programa del Taller de Matemáticas
+
+## Propósitos generales y metodología
+Este taller se enmarca dentro de los propósitos generales del Programa de Integración: apoyar y fortalecer la formación del estudiante proporcionándole el espacio para desarrollar habilidades y herramientas necesarias para cursar estudios superiores e integrarlo al proyecto educativo de la UACM.
+
+Se pretende que el estudiante valore a las Matemáticas como un lenguaje y una herramienta útiles para el análisis de las Ciencias Sociales. De esta manera, este taller deberá sentar las bases y servir de guía para que el estudiante pueda continuar con el estudio de las Matemáticas de acuerdo a las necesidades que surjan en su trayectoria académica. Además, este taller tiene el propósito de repasar o, en su caso, introducir contenidos matemáticos básicos y dotar al estudiante de un espacio en el que pueda continuar con el desarrollo del pensamiento lógico y abstracto.
+
+El desarrollo de las Matemáticas es una actividad humana y, por lo tanto, está sujeto a todas las características de una construcción social. Para este taller se propone una metodología en la que se desarrollen los contenidos desde una perspectiva que enfatice la construcción de los conceptos, por ejemplo, desde una aproximación histórica y/o desde la aplicación de una metodología de trabajo en equipo. Como resultado de esta perspectiva, se espera que los estudiantes desarrollen o, en su caso, refuercen las habilidades necesarias para poder comunicar tanto de manera verbal como escrita sus razonamientos y argumentaciones. En otras palabras, se busca dar una perspectiva que no conciba a las Matemáticas como una disciplina cerrada, sino en continua transformación como realmente lo es.
+
+## TEMARIO DEL TALLER
+
+1. Introducción al pensamiento matemático
+
+**Propósito:** Que el estudiante identifique habilidades de razonamiento lógico matemático tales como clasificación, reconocimiento de patrones, generalización, abstracción y deducción para que las valore como elementos inherentes de las Matemáticas. Que el estudiante reflexione acerca de las Matemáticas como una actividad humana y conozca y entienda algunos aspectos de su desarrollo histórico.
+
+    1.1 Razonamiento matemático
+
+      1.1.1 Investigación de patrones numéricos y/o geométricos
+
+      1.1.2 Razonamientos deductivos e inductivos
+
+    1.2 Ejemplificar el desarrollo histórico de algún aspecto de las Matemáticas. Sugerencias: Sistemas de numeración, algoritmos para operaciones o demostraciones sencillas con regla y compás.
+
+2. Aritmética
+
+**Propósito:** Que el estudiante reconozca las características básicas de los diferentes tipos de números reales y su representación en la recta numérica para que entienda sus propiedades y equivalencias y las aplique al realizar operaciones básicas entre ellos.
+
+    2.1 Números reales
+
+      2.1.1 Definición de los conjuntos de números naturales, enteros, racionales, reales.
+
+      2.1.2 Ubicación en la recta numérica de números naturales, enteros, racionales y de números expresados en forma decimal. Orden de los números reales.
+
+      2.1.3 Números racionales: significado del numerador y denominador de una fracción en términos de partes en que se divide una unidad y partes de ella que se toman. Fracciones equivalentes.
+
+      2.1.4 Conversión de fracciones en decimales y viceversa
+
+    2.2 Operaciones con números reales
+
+      2.2.1 Algoritmos de suma, resta, multiplicación y división de números expresados en forma decimal
+
+      2.2.2 Suma, resta, multiplicación y división de números enteros y jerarquía de las operaciones 2.2.3 Suma, resta, multiplicación y división de números racionales
+
+3. Razones y proporciones
+
+**Propósito:**: Que el estudiante pueda identificar de manera operativa cuándo dos cantidades son directamente proporcionales y reconozca el razonamiento que está detrás de la “regla de tres” para que pueda resolver problemas de razones y proporciones enmarcados en el contexto de las Ciencias Sociales.
+
+    3.1 Razonamiento proporcional
+
+      3.1.1 Interpretaciones de la división en términos de repartir en partes iguales y número de veces que cabe una cantidad en otra. Interpretación de la multiplicación como una suma abreviada. Aplicaciones en problemas de cantidades directamente proporcionales.
+
+      3.1.2 Cantidades unitarias y razón de proporcionalidad directa entre dos variables.
+
+      3.1.3 Cantidades inversamente proporcionales
+
+      3.1.4 Regla de tres simple directa e inversa
+
+      3.1.5 Ejemplos de aplicación en las Ciencias Sociales
+
+    3.2 Porcentajes
+
+      3.2.1 El porcentaje como una aplicación del razonamiento proporcional
+
+      3.2.2 Conversiones entre decimales y porcentajes
+
+      3.2.3 Ejemplos de aplicación en las Ciencias Sociales
+
+4. Conjuntos
+
+**Propósito:** Que el estudiante pueda clasificar objetos y situaciones agrupándolas en conjuntos y asociando las relaciones entre ellas con las operaciones de conjuntos para que pueda aplicarlas al análisis de encuestas.
+
+    4.1 Conceptos básicos de la Teoría de Conjuntos
+
+      4.1.1 Conjunto y elemento. Notación de pertenencia. Descripción de conjuntos.
+
+      4.1.2 Igualdad de conjuntos
+
+      4.1.3 Conjunto vacío y conjunto universo. Complemento.
+
+      4.1.4 Subconjunto, subconjunto propio y su notación.
+
+      4.1.5 Diagramas de Venn
+
+    4.2 Operaciones entre conjuntos
+
+      4.2.1 Intersección, unión y diferencia. Definiciones.
+
+      4.2.2 Aplicación en conjuntos discretos finitos y usando diagramas de Venn
+
+    4.3 Aplicaciones al análisis de encuestas
+
+5. Análisis gráfico de la información
+
+**Propósito:** Que el estudiante conozca las características de la representación gráfica para que sea capaz de decodificarla y representar información usando una gráfica.
+
+    5.1 Representación gráfica de dos variables correlacionadas
+
+      5.1.1 Plano cartesiano. Ejes y escalas
+
+      5.1.2 Localización e interpretación de puntos en el plano.
+
+      5.1.3 Interpretación y representación de incrementos verticales y horizontales
+
+    5.2 Relación entre variables representada por una gráfica continua en el plano
+
+      5.2.1 Rectas como representación de una relación proporcional. Pendiente y su interpretación como razón de cambio
+
+      5.2.2 Identificar gráficamente: Intervalos de crecimiento y disminución, máximos y mínimos. Relacionar con el signo de la pendiente y su cambio
+
+      5.2.3 Ejemplos de aplicación en las Ciencias Sociales
+
+    5.3 Otras representaciones gráficas
+
+      5.3.1 Gráficas de barras
+
+      5.3.2 Gráficas circulares y de área
+
+      5.3.3 Ejemplos de aplicación en las Ciencias Sociales
+
+6. Introducción a la Estadística
+
+**Propósito:** Que el estudiante conozca los elementos básicos de la estadística y sus fundamentos para que analice información en contextos simples relacionados con las Ciencias Sociales.
+
+    6.1 Distribuciones de frecuencia y gráficas
+
+      6.1.2 Datos y distribuciones de frecuencia. Agrupamiento de datos.
+
+      6.1.3 Representación gráfica. Histogramas. Opcional: diagramas de tallos y hojas.
+
+      6.1.4 Ejemplos de aplicación en las Ciencias Sociales
+
+    6.2 Medidas de tendencia central
+
+      6.2.1 Media, Mediana y Moda. Interpretaciones y diferencias.
+
+      6.2.2 Criterios para escoger alguna medida de tendencia central al realizar un análisis.
+
+      6.2.3 Ejemplos de aplicación en las Ciencias Sociales
+
+    6.3 Medidas de dispersión
+
+      6.3.1 Justificación de la introducción de las medidas de dispersión en el análisis estadístico
+
+      6.3.2 Rango y desviación estándar
+
+      6.3.3 Ejemplos de aplicación en las Ciencias Sociales
+
+## Metodología
+En general, se recomienda que se privilegie la participación activa de los estudiantes, por ejemplo, permitiendo que ellos propongan ejemplos que les sean familiares, provocando discusiones colectivas sobre resultados o dudas y se promueva el trabajo en equipo. El docente deberá ser un facilitador en la construcción del conocimiento y para esto se sugiere que evite los tecnicismos, en la medida de lo posible, y que introduzca palabras nuevas y definiciones sólo hasta que los elementos que las componen hayan sido discutidos y analizados previamente. Así mismo, debe procurar no dar respuestas inmediatas a las dudas de los estudiantes y guiarlos a través de una línea de razonamiento para que, si se puede, ellos mismos lleguen a las conclusiones correctas (por ejemplo, a través de preguntas como “¿cómo sabes qué…?”, “¿qué evidencia tienes de…?”, “¿qué pasaría si…?”).
+
+## Sugerencias de materiales para el taller
+
+Para los temas 1, 4 y 6 se puede usar como guía el libro de Miller [1], donde se proponen investigaciones colaborativas que se pueden proponer como trabajo en equipo. Para los temas 2 y 3, se pueden tomar actividades del libro de Barkovich y Chernicoff [3], que presentan una serie de actividades diseñadas expresamente para ser trabajadas en equipo. Para la primera parte del tema 5 se puede usar Chernicoff [5]. La segunda parte del tema 1 se puede trabajar a partir de lecturas basadas en los siguientes libros:
+
+    1. Dioxiadis, Apostolos. El tío Petros y la Conjetura de Goldbach. Madrid: Ediciones B, 2003.
+
+    2. Herzenberguer, Hans Magnus. El diablo de los números. Madrid: Siruela, 2003.
+
+    3. Infeld, Leopold. El elegido de los dioses. México: Siglo XXI, 2001
+
+    4. Mariano Perero, Historia e Historias de las Matemáticas. Grupo Editorial Iberoamérica, 1994.
+
+    5. Sagan, Carl. Miles de millones. Madrid: Ediciones B, 2003.
+
+    6. Salinger, A. Un matemático lee el periódico. Barcelona: Tusquets Editores, 2002.
+
+## Evaluación
+
+Evaluación diagnóstica inicial. Es la evaluación diagnóstica institucional que presentan los estudiantes de nuevo ingreso. En el ingreso 2012-II se ha procurado que esta evaluación esté en sintonía con el presente temario del taller.
+
+Tres evaluaciones formativas parciales.
+
+Se recomienda que para determinar el resultado final del taller se incluya un examen escrito y un portafolio desarrollado durante el curso y/o un trabajo de investigación que se puede relacionar con el trabajo de indagación del taller de ICA.
+
+## Bibliografía
+
+    - MILLER, Charles D., Matemática: Razonamiento y aplicaciones, (1999). 8ª ed. Ed. Addison Wesley. México.
+
+    - BARKOVICH, M. y CHERNICOFF, L. Construyendo Matemáticas. Una introducción al razonamiento matemático, (2010). 2ª Ed. Ed. UACM, México. (Disponible sólo en versión electrónica)
+
+    - CHERNICOFF, L. Representaciones gráficas, (2010). UACM. Notas para libro. (Disponible sólo en versión electrónica)
+
+    - KLINE, Morris. Matemáticas para estudiantes de humanidades, (2002). Ed. Fondo de Cultura Económica. México.
+
+
 # El Conjunto de los números reales
 
 ## Semana 1
