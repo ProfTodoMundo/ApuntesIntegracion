@@ -12,6 +12,8 @@ output:
     toc_depth: 3
     code_folding: show
     css: styles.css
+    theme: united
+    highlight: tango
 ---
 
 ```{r setup, include=FALSE}
