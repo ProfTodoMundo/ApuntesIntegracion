@@ -475,7 +475,170 @@ Para la siguiente lista de valores, determina quién es el mayor de los dos y ub
     xxiii. m.c.d(7, 14, 21)
     xxiv. m.c.d(20, 40, 50)
     xxv. m.c.d(16, 32, 48)
-    
+
+## Operaciones con fracciones: suma, resta, multiplicación y división 
+
+### Suma de fracciones 
+1. Realiza las siguientes sumas de fracciones
+
+    i. $\frac{5}{25} + \frac{8}{40}$
+    ii. $\frac{6}{18} + \frac{7}{35}$
+    iii. $\frac{4}{28} + \frac{9}{45}$
+    iv. $\frac{3}{15} + \frac{6}{36}$
+    v. $\frac{18}{36} + \frac{10}{52}$
+    vi. $\frac{7}{21} + \frac{5}{25}$
+    vii. $\frac{32}{14} + \frac{9}{45}$
+    viii. $\frac{68}{48} + \frac{64}{24}$
+    ix. $\frac{36}{45} + \frac{28}{10}$
+    xi. $\frac{32}{27} + \frac{56}{36}$
+    x. $\frac{9}{36} + \frac{24}{64}$
+    xii. $\frac{1}{11} + \frac{8}{40}$
+    xiii. $\frac{15}{25} + \frac{44}{20}$
+    xiv. $\frac{10}{50} + \frac{3}{15}$
+    xv. $\frac{7}{28} + \frac{6}{36}$
+    xvi. $\frac{42}{16} + \frac{9}{45}$
+    xvii. $\frac{6}{30} + \frac{5}{25}$
+    xviii. $\frac{44}{20} + \frac{27}{63}$
+    xix. $\frac{8}{40} + \frac{1}{11}$
+    xx. $\frac{42}{18} + \frac{6}{18}$
+    xxi. $\frac{1}{4} + \frac{2}{3}$
+    xxii. $\frac{3}{5} + \frac{2}{7}$
+    xxiii. $\frac{2}{9} + \frac{5}{6}$
+    xxiv. $\frac{7}{12} + \frac{3}{8}$
+    xxv. $\frac{4}{9} + \frac{3}{5} + \frac{2}{7}$
+    xxvi. $\frac{5}{8} + \frac{3}{10} + \frac{2}{5}$
+    xxvii. $\frac{6}{11} + \frac{4}{9} + \frac{3}{7}$
+    xxviii. $\frac{7}{10} + \frac{5}{8} + \frac{4}{9}$
+    xxix. $\frac{2}{3} + \frac{4}{5} + \frac{6}{7} + \frac{8}{9}$
+    xxx. $\frac{9}{11} + \frac{5}{7} + \frac{3}{4} + \frac{2}{3}$
+    xxxi. $\frac{2}{5} + \frac{7}{9} + \frac{4}{6} + \frac{1}{8}$
+    xxxii. $\frac{5}{8} + \frac{2}{3} + \frac{4}{7} + \frac{6}{9}$
+    xxxiii. $\frac{3}{4} + \frac{4}{5} + \frac{5}{6} + \frac{6}{7} + \frac{7}{8}$
+    xxxiv. $\frac{8}{9} + \frac{7}{10} + \frac{6}{11} + \frac{5}{12} + \frac{4}{13}$
+    xxxv. $\frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \frac{9}{10}$
+    xxxvi. $\frac{11}{12} + \frac{10}{11} + \frac{9}{10} + \frac{8}{9} + \frac{7}{8}$
+
+### Resta  de fracciones
+2. Realiza las siguientes restas de fracciones
+
+    i. $\frac{3}{7} - \frac{2}{5}$
+    ii. $\frac{5}{12} - \frac{1}{6}$
+    iii. $\frac{2}{9} - \frac{4}{11}$
+    iv. $\frac{7}{15} - \frac{3}{10}$
+    v. $\frac{9}{20} - \frac{7}{25}$
+    vi. $\frac{11}{24} - \frac{5}{18}$
+    vii. $\frac{3}{14} - \frac{2}{21}$
+    vii. $\frac{6}{13} - \frac{2}{39}$
+    ix. $\frac{5}{12} - \frac{3}{8}$
+    x. $\frac{7}{10} - \frac{4}{25}$
+    xi. $\frac{19}{22} - \frac{11}{44}$
+    xii. $\frac{8}{15} - \frac{5}{12}$
+    xiii. $\frac{14}{27} - \frac{5}{18}$    
+    xiv. $\frac{21}{35} - \frac{12}{25}$
+    xv. $\frac{5}{12} - \frac{3}{8}$
+    xvi. $\frac{11}{20} - \frac{7}{15}$
+    xvii. $\frac{7}{16} - \frac{3}{10}$
+    xviii. $\frac{13}{24} - \frac{5}{16}$
+    xix. $\frac{15}{28} - \frac{9}{35}$
+    xx. $\frac{17}{36} - \frac{11}{27}$
+    xxi. $\frac{7}{18} - \frac{5}{12}$
+    xxii. $\frac{16}{33} - \frac{8}{27}$
+    xxiii. $\frac{10}{21} - \frac{3}{14}$
+    xxiv. $\frac{25}{51} - \frac{7}{34}$
+    xxv. $\frac{17}{38} - \frac{6}{19}$
+    xxvi. $\frac{3}{4} - \frac{1}{2}$
+    xxvii. $\frac{5}{7} - \frac{2}{5}$
+    xxviii. $\frac{7}{9} - \frac{3}{4}$
+    xxix. $\frac{2}{5} - \frac{1}{3}$
+    xxx. $\frac{4}{7} - \frac{2}{9} - \frac{1}{3}$
+    xxxi. $\frac{9}{11} - \frac{3}{8} - \frac{4}{7}$
+    xxxii. $\frac{5}{6} - \frac{2}{5} - \frac{3}{7}$
+    xxxiii. $\frac{8}{9} - \frac{4}{7} - \frac{1}{6}$
+    xxxiv. $\frac{7}{10} - \frac{2}{3} - \frac{3}{8} - \frac{1}{5}$
+    xxxv. $\frac{11}{12} - \frac{5}{9} - \frac{2}{7} - \frac{3}{11}$
+    xxxvi. $\frac{4}{5} - \frac{1}{3} - \frac{2}{9} - \frac{5}{8}$
+    xxxvii. $\frac{9}{10} - \frac{3}{7} - \frac{4}{11} - \frac{1}{8}$
+    xxxviii. $\frac{5}{6} - \frac{2}{5} - \frac{3}{7} - \frac{4}{9} - \frac{1}{10}$
+    xxxix. $\frac{7}{8} - \frac{4}{11} - \frac{5}{12} - \frac{3}{7} - \frac{2}{9}$
+    xl. $\frac{3}{4} - \frac{1}{6} - \frac{5}{8} - \frac{2}{9} - \frac{4}{11}$
+    xli. $\frac{10}{11} - \frac{3}{8} - \frac{4}{9} - \frac{5}{12} - \frac{1}{13}$
+
+
+### Multiplicación  de fracciones
+
+3. Multiplicación de fracciones
+
+    i. $\frac{1}{2} \times \frac{3}{4}$
+    ii. $\frac{2}{5} \times \frac{4}{7}$
+    iii. $\frac{3}{8} \times \frac{5}{6}$
+    iv. $\frac{4}{9} \times \frac{2}{3}$
+    v. $\frac{2}{3} \times \frac{4}{5}$
+    vi. $\frac{3}{7} \times \frac{5}{8}$
+    vii. $\frac{4}{9} \times \frac{6}{7}$
+    viii. $\frac{1}{5} \times \frac{3}{4}$
+    ix. $\frac{2}{5} \times \frac{3}{7} \times \frac{4}{9}$
+    x. $\frac{6}{11} \times \frac{4}{9} \times \frac{3}{7}$
+    xi. $\frac{1}{6} \times \frac{5}{8} \times \frac{2}{4}$
+    xii.$\frac{3}{8} \times \frac{4}{7} \times \frac{5}{6}$
+    xiii. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7}$
+    xiv$\frac{5}{8} \times \frac{2}{9} \times \frac{3}{10}$
+    xv. $\frac{1}{4} \times \frac{7}{12} \times \frac{3}{5}$
+    xvi. $\frac{3}{5} \times \frac{4}{7} \times \frac{5}{8}$
+    xvii. $\frac{2}{5} \times \frac{3}{7} \times \frac{4}{9} \times \frac{5}{11}$
+    xviii. $\frac{7}{9} \times \frac{5}{8} \times \frac{3}{7} \times \frac{4}{11}$
+    xix. $\frac{1}{3} \times \frac{4}{5} \times \frac{6}{7} \times \frac{8}{9}$
+    xx. $\frac{2}{7} \times \frac{3}{8} \times \frac{5}{11} \times \frac{7}{12}$
+    xxi. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7} \times \frac{5}{9}$
+    xxii. $\frac{7}{10} \times \frac{5}{8} \times \frac{3}{7} \times \frac{4}{11}$
+    xxiii. $\frac{1}{4} \times \frac{7}{9} \times \frac{3}{6} \times \frac{5}{8}$
+    xxiv. $\frac{2}{7} \times \frac{3}{8} \times \frac{5}{9} \times \frac{7}{10}$
+    xxv. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7} \times \frac{5}{9} \times \frac{6}{11}$
+    xxvi. $\frac{5}{8} \times \frac{2}{9} \times \frac{3}{10} \times \frac{4}{11} \times \frac{7}{13}$
+    xxvii. $\frac{1}{4} \times \frac{7}{12} \times \frac{3}{5} \times \frac{5}{8} \times \frac{2}{9}$
+    xxviii. $\frac{3}{5} \times \frac{4}{7} \times \frac{5}{8} \times \frac{6}{9} \times \frac{7}{10}$
+    xxix. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7} \times \frac{5}{9} \times \frac{6}{11}$
+    xxx. $\frac{5}{8} \times \frac{2}{9} \times \frac{3}{10} \times \frac{4}{11} \times \frac{7}{12}$
+    xxxi. $\frac{1}{4} \times \frac{7}{12} \times \frac{3}{5} \times \frac{5}{8} \times \frac{2}{9}$
+    xxxii. $\frac{3}{5} \times \frac{4}{7} \times \frac{5}{8} \times \frac{6}{9} \times \frac{7}{10}$
+
+### División de fracciones
+
+4. División de fracciones
+
+    i. $\frac{2}{3} \div \frac{4}{5}$
+    ii. $\frac{3}{7} \div \frac{5}{8}$
+    iii. $\frac{4}{9} \div \frac{6}{7}$
+    iv. $\frac{1}{5} \div \frac{3}{4}$
+    v. $\frac{3}{4} \div \frac{2}{3}$
+    vi. $\frac{5}{8} \div \frac{3}{7}$
+    vii. $\frac{6}{7} \div \frac{4}{9}$
+    viii. $\frac{2}{3} \div \frac{1}{5}$
+    ix. $\frac{2}{5} \div (\frac{3}{7} \div \frac{4}{9})$
+    x. $\frac{6}{11} \div (\frac{4}{9} \div \frac{3}{7})$
+    xi. $\frac{1}{6} \div (\frac{5}{8} \div \frac{2}{4})$
+    xii. $\frac{3}{8} \div (\frac{4}{7} \div \frac{5}{6})$
+    xiii. $\frac{4}{9} \div (\frac{3}{5} \div \frac{2}{7})$
+    xiv. $\frac{5}{8} \div (\frac{3}{10} \div \frac{2}{5})$
+    xv. $\frac{6}{11} \div (\frac{4}{9} \div \frac{3}{7})$
+    xvi. $\frac{7}{10} \div (\frac{5}{8} \div \frac{4}{9})$
+    xvii. $(\frac{2}{3} \div \frac{3}{5}) \div (\frac{4}{7} \div \frac{5}{9})$
+    xviii. $(\frac{7}{10} \div \frac{5}{8}) \div (\frac{3}{7} \div \frac{4}{11})$
+    xix. $(\frac{1}{4} \div \frac{7}{9}) \div (\frac{3}{6} \div \frac{5}{8})$
+    xx. $(\frac{2}{7} \div \frac{3}{8}) \div (\frac{5}{9} \div \frac{7}{10})$
+    xxi. $(\frac{2}{3} \div \frac{4}{5}) \div (\frac{6}{7} \div \frac{8}{9})$
+    xxii. $(\frac{9}{11} \div \frac{5}{7}) \div (\frac{3}{4} \div \frac{2}{3})$
+    xxiii. $(\frac{2}{5} \div \frac{7}{9}) \div (\frac{4}{6} \div \frac{1}{8})$
+    xxiv. $(\frac{5}{8} \div \frac{2}{3}) \div (\frac{4}{7} \div \frac{6}{9})$
+    xxv. $\frac{2}{3} \div (\frac{3}{5} \div \frac{4}{7}) \div (\frac{5}{9} \div \frac{6}{11})$
+    xxvi. $\frac{5}{8} \div (\frac{2}{9} \div \frac{3}{10}) \div (\frac{4}{11} \div \frac{7}{12})$
+    xxvii. $\frac{1}{4} \div (\frac{7}{12} \div \frac{3}{5}) \div (\frac{5}{8} \div \frac{2}{9})$
+    xxviii. $\frac{3}{5} \div (\frac{4}{7} \div \frac{5}{8}) \div (\frac{6}{9} \div \frac{7}{10})$
+    xxix. $\frac{3}{4} \div (\frac{4}{5} \div \frac{5}{6}) \div (\frac{6}{7} \div \frac{7}{8})$
+    xxx. $\frac{8}{9} \div (\frac{7}{10} \div \frac{6}{11}) \div (\frac{5}{12} \div \frac{4}{13})$
+    xxxi. $\frac{1}{2} \div (\frac{3}{4} \div \frac{5}{6}) \div (\frac{7}{8} \div \frac{9}{10})$
+    xxxii. $\frac{11}{12} \div (\frac{10}{11} \div \frac{9}{10}) (\div \frac{8}{9} \div \frac{7}{8})$
+
+
 # Biografías de Científicas Mexicanas y de la Universidad
 
 A continuación te presento una lista con algunas de las científicas mexicanas y de nuestra universidad de las cuales se tendrá que elaborar una biografía.
