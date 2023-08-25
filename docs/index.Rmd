@@ -638,10 +638,11 @@ Para la siguiente lista de valores, determina quién es el mayor de los dos y ub
     xxxi. $\frac{1}{2} \div (\frac{3}{4} \div \frac{5}{6}) \div (\frac{7}{8} \div \frac{9}{10})$
     xxxii. $\frac{11}{12} \div (\frac{10}{11} \div \frac{9}{10}) (\div \frac{8}{9} \div \frac{7}{8})$
 
+# Temas adicionales
 
-# Biografías de Científicas Mexicanas y de la Universidad
+## A. Biografías de Científicas Mexicanas y de la Universidad
 
-A continuación te presento una lista con algunas de las científicas mexicanas y de nuestra universidad de las cuales se tendrá que elaborar una biografía.
+A continuación les presento una lista con algunas de las científicas mexicanas y de nuestra universidad de las cuales se tendrá que elaborar una biografía.
 
   A. Nacionales
   
@@ -724,10 +725,35 @@ A continuación te presento una lista con algunas de las científicas mexicanas 
       10. Rodríguez Sánchez María del Carmen
       
     
+## B. Línea de tiempo de la Matemática
     
-    
+    En este trabajo el objetivo es revisar el desarrollo de las matemáticas a lo largo de la historia, desde los Griegos hasta la edad media, luego de la edad media hasta la aparición de Galileo Galilei, Isaac Newton, Johannes Keppler entre otros para posteriormente el desarrollo de la ciencia hasta la aparición de Albert Einstein. A continuación  la evolución de las matemáticas hasta Stephen Hawking, y cerrando la revisión con los trabajos de Gregory Perelman y hasta Maryam Mirzakhani.
+
+    Ojalá y la revisión de estas grandes personalidades sirva como incentivo en su deseo de conocer aún más a las Matemáticas y continuar su estudio hasta lograr un dominio satisfactorio de las mismas.
 
 
+## C. Las matemáticas en el cine
+
+    Las matemáticas han tenido un papel central en algunas películas, por lo tanto es importante que conozcamos algunas de ellas que han sido un pilar en la difusión y en algunos casos romantización/dramatización de sus personajes principales.
+
+
+    Las películas de las cuales es preciso que entreguen una reseña son las siguientes:
+
+      1. Donald en el país de las matemáticas
+  
+      2. Nuestro amigo el átomo
+  
+      3. 21 Blackjack
+  
+      4. Una mente brillante
+  
+      5. Mente indomable
+  
+      6. Ramanujan: el hombre que conocía el infinito
+  
+      7. Código Enigma
+  
+      8. La teoría del todo
 
 
 
