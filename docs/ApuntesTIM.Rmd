@@ -1,0 +1,1198 @@
+---
+title: "Apuntes para el Taller de Matemáticas - CHyCS"
+author: "Carlos Ernesto Martinez"
+date: "2023-08-12"
+documentclass: book
+output:
+  pdf_document:
+    toc: yes
+    toc_depth: 2
+    number_sections: yes
+header-includes:
+  - \usepackage[spanish]{babel}
+  - \usepackage{multicol}
+  - \usepackage{titlesec}
+  - \renewcommand{\chaptername}{Capítulo}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+    \pagestyle{fancy}
+    \fancyhf{}
+    \fancyfoot[C]{\thepage}
+    \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+    \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+  - \renewcommand{\sectionmark}[1]{\markright{#1}}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+  - \newtheorem{Def}{Definición}[chapter]
+  - \newtheorem{Ejem}{Ejemplo}[chapter]
+  - \newtheorem{Ejer}{Ejercicio}[chapter]
+  - \newtheorem{Prop}{Propiedad}[chapter]
+  - \newtheorem{Nota}{Nota}[chapter]
+  - \usepackage{makeidx}
+  - \makeindex
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+\justify
+
+
+\newpage
+\thispagestyle{empty}
+
+
+# Presentación
+
+En esta página encontrarás ejercicios adicionales a los vistos en clase
+
+## Información personal y redes sociales
+- [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
+
+![Acceder al documento](codigo_qr.png){width=200px}
+
+# Programa del Taller de Matemáticas
+
+## Propósitos generales y metodología
+Este taller se enmarca dentro de los propósitos generales del Programa de Integración: apoyar y fortalecer la formación del estudiante proporcionándole el espacio para desarrollar habilidades y herramientas necesarias para cursar estudios superiores e integrarlo al proyecto educativo de la UACM.
+
+Se pretende que el estudiante valore a las Matemáticas como un lenguaje y una herramienta útiles para el análisis de las Ciencias Sociales. De esta manera, este taller deberá sentar las bases y servir de guía para que el estudiante pueda continuar con el estudio de las Matemáticas de acuerdo a las necesidades que surjan en su trayectoria académica. Además, este taller tiene el propósito de repasar o, en su caso, introducir contenidos matemáticos básicos y dotar al estudiante de un espacio en el que pueda continuar con el desarrollo del pensamiento lógico y abstracto.
+
+El desarrollo de las Matemáticas es una actividad humana y, por lo tanto, está sujeto a todas las características de una construcción social. Para este taller se propone una metodología en la que se desarrollen los contenidos desde una perspectiva que enfatice la construcción de los conceptos, por ejemplo, desde una aproximación histórica y/o desde la aplicación de una metodología de trabajo en equipo. Como resultado de esta perspectiva, se espera que los estudiantes desarrollen o, en su caso, refuercen las habilidades necesarias para poder comunicar tanto de manera verbal como escrita sus razonamientos y argumentaciones. En otras palabras, se busca dar una perspectiva que no conciba a las Matemáticas como una disciplina cerrada, sino en continua transformación como realmente lo es.
+
+## TEMARIO DEL TALLER
+
+1. Introducción al pensamiento matemático
+
+**Propósito:** Que el estudiante identifique habilidades de razonamiento lógico matemático tales como clasificación, reconocimiento de patrones, generalización, abstracción y deducción para que las valore como elementos inherentes de las Matemáticas. Que el estudiante reflexione acerca de las Matemáticas como una actividad humana y conozca y entienda algunos aspectos de su desarrollo histórico.
+
+    1.1 Razonamiento matemático
+
+      1.1.1 Investigación de patrones numéricos y/o geométricos
+
+      1.1.2 Razonamientos deductivos e inductivos
+
+    1.2 Ejemplificar el desarrollo histórico de algún aspecto de las Matemáticas. Sugerencias: Sistemas de numeración, algoritmos para operaciones o demostraciones sencillas con regla y compás.
+
+2. Aritmética
+
+**Propósito:** Que el estudiante reconozca las características básicas de los diferentes tipos de números reales y su representación en la recta numérica para que entienda sus propiedades y equivalencias y las aplique al realizar operaciones básicas entre ellos.
+
+    2.1 Números reales
+
+      2.1.1 Definición de los conjuntos de números naturales, enteros, racionales, reales.
+
+      2.1.2 Ubicación en la recta numérica de números naturales, enteros, racionales y de números expresados en forma decimal. Orden de los números reales.
+
+      2.1.3 Números racionales: significado del numerador y denominador de una fracción en términos de partes en que se divide una unidad y partes de ella que se toman. Fracciones equivalentes.
+
+      2.1.4 Conversión de fracciones en decimales y viceversa
+
+    2.2 Operaciones con números reales
+
+      2.2.1 Algoritmos de suma, resta, multiplicación y división de números expresados en forma decimal
+
+      2.2.2 Suma, resta, multiplicación y división de números enteros y jerarquía de las operaciones 2.2.3 Suma, resta, multiplicación y división de números racionales
+
+3. Razones y proporciones
+
+**Propósito:**: Que el estudiante pueda identificar de manera operativa cuándo dos cantidades son directamente proporcionales y reconozca el razonamiento que está detrás de la “regla de tres” para que pueda resolver problemas de razones y proporciones enmarcados en el contexto de las Ciencias Sociales.
+
+    3.1 Razonamiento proporcional
+
+      3.1.1 Interpretaciones de la división en términos de repartir en partes iguales y número de veces que cabe una cantidad en otra. Interpretación de la multiplicación como una suma abreviada. Aplicaciones en problemas de cantidades directamente proporcionales.
+
+      3.1.2 Cantidades unitarias y razón de proporcionalidad directa entre dos variables.
+
+      3.1.3 Cantidades inversamente proporcionales
+
+      3.1.4 Regla de tres simple directa e inversa
+
+      3.1.5 Ejemplos de aplicación en las Ciencias Sociales
+
+    3.2 Porcentajes
+
+      3.2.1 El porcentaje como una aplicación del razonamiento proporcional
+
+      3.2.2 Conversiones entre decimales y porcentajes
+
+      3.2.3 Ejemplos de aplicación en las Ciencias Sociales
+
+4. Conjuntos
+
+**Propósito:** Que el estudiante pueda clasificar objetos y situaciones agrupándolas en conjuntos y asociando las relaciones entre ellas con las operaciones de conjuntos para que pueda aplicarlas al análisis de encuestas.
+
+    4.1 Conceptos básicos de la Teoría de Conjuntos
+
+      4.1.1 Conjunto y elemento. Notación de pertenencia. Descripción de conjuntos.
+
+      4.1.2 Igualdad de conjuntos
+
+      4.1.3 Conjunto vacío y conjunto universo. Complemento.
+
+      4.1.4 Subconjunto, subconjunto propio y su notación.
+
+      4.1.5 Diagramas de Venn
+
+    4.2 Operaciones entre conjuntos
+
+      4.2.1 Intersección, unión y diferencia. Definiciones.
+
+      4.2.2 Aplicación en conjuntos discretos finitos y usando diagramas de Venn
+
+    4.3 Aplicaciones al análisis de encuestas
+
+5. Análisis gráfico de la información
+
+**Propósito:** Que el estudiante conozca las características de la representación gráfica para que sea capaz de decodificarla y representar información usando una gráfica.
+
+    5.1 Representación gráfica de dos variables correlacionadas
+
+      5.1.1 Plano cartesiano. Ejes y escalas
+
+      5.1.2 Localización e interpretación de puntos en el plano.
+
+      5.1.3 Interpretación y representación de incrementos verticales y horizontales
+
+    5.2 Relación entre variables representada por una gráfica continua en el plano
+
+      5.2.1 Rectas como representación de una relación proporcional. Pendiente y su interpretación como razón de cambio
+
+      5.2.2 Identificar gráficamente: Intervalos de crecimiento y disminución, máximos y mínimos. Relacionar con el signo de la pendiente y su cambio
+
+      5.2.3 Ejemplos de aplicación en las Ciencias Sociales
+
+    5.3 Otras representaciones gráficas
+
+      5.3.1 Gráficas de barras
+
+      5.3.2 Gráficas circulares y de área
+
+      5.3.3 Ejemplos de aplicación en las Ciencias Sociales
+
+6. Introducción a la Estadística
+
+**Propósito:** Que el estudiante conozca los elementos básicos de la estadística y sus fundamentos para que analice información en contextos simples relacionados con las Ciencias Sociales.
+
+    6.1 Distribuciones de frecuencia y gráficas
+
+      6.1.2 Datos y distribuciones de frecuencia. Agrupamiento de datos.
+
+      6.1.3 Representación gráfica. Histogramas. Opcional: diagramas de tallos y hojas.
+
+      6.1.4 Ejemplos de aplicación en las Ciencias Sociales
+
+    6.2 Medidas de tendencia central
+
+      6.2.1 Media, Mediana y Moda. Interpretaciones y diferencias.
+
+      6.2.2 Criterios para escoger alguna medida de tendencia central al realizar un análisis.
+
+      6.2.3 Ejemplos de aplicación en las Ciencias Sociales
+
+    6.3 Medidas de dispersión
+
+      6.3.1 Justificación de la introducción de las medidas de dispersión en el análisis estadístico
+
+      6.3.2 Rango y desviación estándar
+
+      6.3.3 Ejemplos de aplicación en las Ciencias Sociales
+
+## Metodología
+En general, se recomienda que se privilegie la participación activa de los estudiantes, por ejemplo, permitiendo que ellos propongan ejemplos que les sean familiares, provocando discusiones colectivas sobre resultados o dudas y se promueva el trabajo en equipo. El docente deberá ser un facilitador en la construcción del conocimiento y para esto se sugiere que evite los tecnicismos, en la medida de lo posible, y que introduzca palabras nuevas y definiciones sólo hasta que los elementos que las componen hayan sido discutidos y analizados previamente. Así mismo, debe procurar no dar respuestas inmediatas a las dudas de los estudiantes y guiarlos a través de una línea de razonamiento para que, si se puede, ellos mismos lleguen a las conclusiones correctas (por ejemplo, a través de preguntas como “¿cómo sabes qué…?”, “¿qué evidencia tienes de…?”, “¿qué pasaría si…?”).
+
+## Sugerencias de materiales para el taller
+
+Para los temas 1, 4 y 6 se puede usar como guía el libro de Miller [1], donde se proponen investigaciones colaborativas que se pueden proponer como trabajo en equipo. Para los temas 2 y 3, se pueden tomar actividades del libro de Barkovich y Chernicoff [3], que presentan una serie de actividades diseñadas expresamente para ser trabajadas en equipo. Para la primera parte del tema 5 se puede usar Chernicoff [5]. La segunda parte del tema 1 se puede trabajar a partir de lecturas basadas en los siguientes libros:
+
+    1. Dioxiadis, Apostolos. El tío Petros y la Conjetura de Goldbach. Madrid: Ediciones B, 2003.
+
+    2. Herzenberguer, Hans Magnus. El diablo de los números. Madrid: Siruela, 2003.
+
+    3. Infeld, Leopold. El elegido de los dioses. México: Siglo XXI, 2001
+
+    4. Mariano Perero, Historia e Historias de las Matemáticas. Grupo Editorial Iberoamérica, 1994.
+
+    5. Sagan, Carl. Miles de millones. Madrid: Ediciones B, 2003.
+
+    6. Salinger, A. Un matemático lee el periódico. Barcelona: Tusquets Editores, 2002.
+
+## Evaluación
+
+Evaluación diagnóstica inicial. Es la evaluación diagnóstica institucional que presentan los estudiantes de nuevo ingreso. En el ingreso 2012-II se ha procurado que esta evaluación esté en sintonía con el presente temario del taller.
+
+Tres evaluaciones formativas parciales.
+
+Se recomienda que para determinar el resultado final del taller se incluya un examen escrito y un portafolio desarrollado durante el curso y/o un trabajo de investigación que se puede relacionar con el trabajo de indagación del taller de ICA.
+
+## Bibliografía
+
+    - MILLER, Charles D., Matemática: Razonamiento y aplicaciones, (1999). 8ª ed. Ed. Addison Wesley. México.
+
+    - BARKOVICH, M. y CHERNICOFF, L. Construyendo Matemáticas. Una introducción al razonamiento matemático, (2010). 2ª Ed. Ed. UACM, México. (Disponible sólo en versión electrónica)
+
+    - CHERNICOFF, L. Representaciones gráficas, (2010). UACM. Notas para libro. (Disponible sólo en versión electrónica)
+
+    - KLINE, Morris. Matemáticas para estudiantes de humanidades, (2002). Ed. Fondo de Cultura Económica. México.
+
+
+# El Conjunto de los números reales
+
+## Semana 1
+
+1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
+
+\begin{multicols}{2}
+   
+    i. n=5, a=2, b=8
+   
+    ii. n=3, a=1, b=7
+   
+    iii. n=4, a=2, b=9
+   
+    iv. n=2, a=1, b=5
+   
+    v. n=6, a=3, b=7
+   
+    vi. n=3, a=2, b=6
+   
+    vii. n=4, a=1, b=6
+   
+    viii. n=5, a=3, b=9
+   
+    ix. n=2, a=1, b=4
+   
+    x. n=4, a=2, b=8
+   
+    xi. n=5, a=3, b=9
+   
+    xii. n=2, a=1, b=7
+   
+    xiii. n=4, a=2, b=6
+   
+    xiv. n=3, a=1, b=5
+   
+    xv. n=6, a=4, b=8
+\end{multicols}
+
+2. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, recuerda que $n$ es el número de subintervalos en los que se divide el segmento $b-a$
+
+    i. n=5, a=-2, b=8
+   
+    ii. n=3, a=-1, b=7
+   
+    iii. n=4, a=-2, b=9
+   
+    iv. n=2, a=-1, b=5
+   
+    v. n=6, a=-3, b=7
+   
+    vi. n=3, a=-2, b=6
+   
+    vii. n=4, a=-1, b=6
+   
+    viii. n=5, a=-3, b=9
+   
+    ix. n=2, a=-1, b=4
+   
+    x. n=4, a=-2, b=8
+   
+    xi. n=5, a=-3, b=9
+   
+    xii. n=2, a=-1, b=7
+   
+    xiii. n=4, a=-2, b=6
+   
+    xiv. n=3, a=-1, b=5
+   
+    xv. n=6, a=-4, b=8
+\end{multicols}
+
+3. Para la siguiente lista de ejercicios determina las coordenadas de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, entre $-2b$ y $2b$:
+
+\begin{multicols}{2}
+   
+    i. n=15, a=22, b=31
+   
+    ii. n=5, a=9, b=25
+   
+    iii. n=27, a=7, b=35
+   
+    iv. n=9, a=16, b=40
+   
+    v. n=3, a=2, b=15
+   
+    vi. n=18, a=26, b=9
+   
+    vii. n=7, a=8, b=28
+   
+    viii. n=12, a=10, b=39
+   
+    ix. n=20, a=17, b=34
+   
+    x. n=10, a=44, b=6
+   
+    xi. n=25, a=21, b=11
+   
+    xii. n=8, a=27, b=38
+   
+    xiii. n=29, a=32, b=43
+   
+    xiv. n=13, a=19, b=24
+   
+    xv. n=4, a=37, b=42
+\end{multicols}
+
+
+## Semana 2
+
+Para la siguiente lista de valores, determina quién es el mayor de los dos y ubícalos en la recta real.
+
+
+1. Determina quién es el mayor de los dos valores y ubícalos en la recta real.
+
+\begin{multicols}{2}
+  
+    i. a = 7/19, b = 11/21
+  
+   ii. a = 3/13, b = 5/17
+  
+   iii. a = 9/28, b = 4/12
+  
+   iv. a = 2/10, b = 6/23
+  
+   v. a = 14/36, b = 8/40
+  
+   vi. a = 1/22, b = 15/31
+  
+   vii. a = 10/29, b = 12/37
+  
+   viii. a = 5/18, b = 7/32
+  
+   ix. a = 16/44, b = 20/43
+  
+   x. a = 6/25, b = 13/35
+  
+   xi. a = 8/33, b = 3/15
+  
+   xii. a = 21/42, b = 22/45
+  
+   xiii. a = 19/41, b = 11/27
+  
+   xiv. a = 17/34, b = 4/9
+  
+   xv. a = 23/39, b = 9/20
+\end{multicols}
+
+  
+
+2. Determina quién es el mayor de los dos valores y ubícalos en la recta real.
+
+\begin{multicols}{2}
+   
+    i. a = 6/15, b = 18/30
+   
+   ii. a = 9/18, b = 20/40
+   
+   iii. a = 7/21, b = 15/45
+   
+   iv. a = 5/10, b = 10/20
+   
+   v. a = 3/9, b = 12/36
+   
+   vi. a = 11/22, b = 24/48
+   
+   vii. a = 8/24, b = 16/40
+   
+   viii. a = 4/12, b = 9/27
+   
+   ix. a = 14/35, b = 28/42
+   
+   x. a = 2/8, b = 6/24
+   
+   xi. a = 10/25, b = 21/42
+   
+   xii. a = 13/26, b = 27/54
+   
+   xiii. a = 12/30, b = 25/35
+   
+   xiv. a = 1/5, b = 5/25
+   
+   xv. a = 16/32, b = 36/45
+\end{multicols}
+
+   
+   
+## Ejercicios adicionales
+
+1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$
+
+\begin{multicols}{2}
+   
+    i. n=5, a=2, b=8
+   
+    ii. n=3, a=1, b=7
+   
+    iii. n=4, a=2, b=9
+   
+    iv. n=2, a=1, b=5
+   
+    v. n=6, a=3, b=7
+   
+    vi. n=3, a=2, b=6
+   
+    vii. n=4, a=1, b=6
+   
+    viii. n=5, a=3, b=9
+   
+    ix. n=2, a=1, b=4
+   
+    x. n=4, a=2, b=8
+\end{multicols}
+
+
+2. Realiza lo mismo que el ejercicio anterior para las siguientes ternas:
+
+\begin{multicols}{2}
+   
+    i. n=5, a=-2, b=8
+   
+    ii. n=3, a=-1, b=7
+   
+    iii. n=4, a=-2, b=9
+   
+    iv. n=2, a=-1, b=5
+   
+    v. n=6, a=-3, b=7
+   
+    vi. n=3, a=-2, b=6
+   
+    vii. n=4, a=-1, b=6
+   
+    viii. n=5, a=-3, b=9
+   
+    ix. n=2, a=-1, b=4
+   
+    x. n=4, a=-2, b=8
+   
+   
+    xi. n=5, a=-3, b=9
+   
+    xii. n=2, a=-1, b=7
+   
+    xiii. n=4, a=-2, b=6
+   
+    xiv. n=3, a=-1, b=5
+   
+    xv. n=6, a=-4, b=8
+\end{multicols}
+
+
+3. Para la siguiente lista de ejercicios determina las coordenadas de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$, entre $-2b$ y $2b$:
+
+\begin{multicols}{2}
+   
+    i. n=19, a=41, b=33
+   
+    ii. n=6, a=36, b=45
+   
+    iii. n=23, a=30, b=14
+   
+    iv. n=28, a=4, b=18
+   
+    v. n=17, a=5, b=26
+   
+    vi. n=11, a=23, b=20
+   
+    vii. n=2, a=25, b=29
+   
+    viii. n=21, a=1, b=41
+   
+    ix. n=14, a=43, b=3
+   
+    x. n=24, a=12, b=22
+\end{multicols}
+
+
+
+4.  Determina cual es el mayor y ubícalos en la recta real
+
+\begin{multicols}{2}
+   
+    i. a = 24/26, b = 25/30
+   
+    ii. a = 32/38, b = 7/14
+   
+    iii. a = 40/44, b = 42/43
+   
+    iv. a = 1/8, b = 3/11
+   
+    v. a = 13/37, b = 18/40
+   
+    vi. a = 1/2, b = 2/3
+   
+    vii. a = 17/34, b = 38/48
+   
+    vii. a = 19/38, b = 42/45
+   
+    ix. a = 22/44, b = 40/43
+   
+    x. a = 23/46, b = 41/44
+\end{multicols}
+
+
+# Aritmética
+
+## Máximo Común Divisor y Mínimo Común Múltiplo
+
+1. Encuentra el M.C.D de los siguientes pares de números
+
+\begin{multicols}{2}
+  
+    i. m.c.d(15, 25)
+  
+    ii. m.c.d(10, 30)
+  
+    iii. m.c.d(7, 49)
+  
+    iv. m.c.d(20, 40)
+  
+    v. m.c.d(12, 48)
+  
+    vi. m.c.d(9, 18)
+  
+    vii. m.c.d(4, 44)
+  
+    viii. m.c.d(21, 35)
+  
+    ix. m.c.d(28, 42)
+  
+    x. m.c.d(6, 36)
+  
+    xi. m.c.d(16, 32)
+  
+    xii. m.c.d(24, 48)
+  
+    xiii. m.c.d(8, 16)
+  
+    xiv. m.c.d(5, 45)
+  
+    xv. m.c.d(3, 33)
+\end{multicols}
+
+
+2. Encuentra el M.C.D de las siguientes ternas de números
+
+\begin{multicols}{2}
+  
+    i. m.c.d(10, 25, 35)
+  
+    ii. m.c.d(15, 30, 45)
+  
+    iii. m.c.d(12, 18, 36)
+  
+    iv. m.c.d(20, 40, 50)
+  
+    v. m.c.d(8, 24, 32)
+  
+    vi. m.c.d(7, 14, 21)
+  
+    vii. m.c.d(6, 42, 48)
+  
+    viii. m.c.d(9, 27, 45)
+  
+    ix. m.c.d(4, 44, 48)
+  
+    x. m.c.d(16, 32, 48)
+  
+    xi. m.c.d(22, 33, 44)
+  
+    xii. m.c.d(25, 35, 49)
+  
+    xiii. m.c.d(3, 9, 18)
+  
+    xiv. m.c.d(28, 36, 42)
+  
+    xv. m.c.d(5, 10, 15)
+\end{multicols}
+
+
+3. Encuentra el mínimo común múltipo de los siguientes pares de números
+
+\begin{multicols}{2}
+  
+    i. m.c.m(10, 25)
+  
+    ii. m.c.m(15, 30)
+  
+    iii. m.c.m(12, 18)
+  
+    iv. m.c.m(20, 40)
+  
+    v. m.c.m(8, 24)
+  
+    vi. m.c.m(7, 14)
+  
+    vii. m.c.m(6, 42)
+  
+    viii. m.c.m(9, 27)
+  
+    ix. m.c.m(4, 44)
+  
+    x. m.c.m(16, 32)
+  
+    xi. m.c.m(22, 33)
+  
+    xii. m.c.m(25, 35)
+  
+    xiii. m.c.m(3, 9)
+  
+    xiv. m.c.m(28, 36)
+  
+    xv. m.c.m(5, 10)
+\end{multicols}
+
+
+4. Encuentra el mínimo común múltipo de las siguientes ternas de números
+
+\begin{multicols}{2}
+  
+    i. m.c.m(10, 25, 35)
+  
+    ii. m.c.m(15, 30, 45)
+  
+    iii. m.c.m(12, 18, 36)
+  
+    iv. m.c.m(20, 40, 50)
+  
+    v. m.c.m(8, 24, 32)
+  
+    vi. m.c.m(7, 14, 21)
+  
+    vii. m.c.m(6, 42, 48)
+  
+    viii. m.c.m(9, 27, 45)
+  
+    ix. m.c.m(4, 44, 48)
+  
+    x. m.c.m(16, 32, 48)
+  
+    xi. m.c.m(22, 33, 44)
+  
+    xii. m.c.m(25, 35, 49)
+  
+    xiii. m.c.m(3, 9, 18)
+  
+    xiv. m.c.m(28, 36, 42)
+  
+    xv. m.c.m(5, 10, 15)
+\end{multicols}
+
+
+5. Encuentra el M.C.D o m.c.m según se indique
+
+\begin{multicols}{2}
+  
+    i. m.c.m(7, 14)
+  
+    ii. m.c.m(10, 20)
+  
+    iii. m.c.m(18, 36)
+  
+    iv. m.c.m(25, 35)
+  
+    v. m.c.m(9, 27)
+  
+    vi. m.c.m(11, 22)
+  
+    vii. m.c.m(30, 45)
+  
+    viii. m.c.m(16, 32)
+  
+    ix. m.c.m(12, 48)
+  
+    x. m.c.m(6, 18)
+  
+    xi. m.c.m(4, 8, 16)
+  
+    xii. m.c.m(6, 12, 18)
+  
+    xiii. m.c.m(15, 25, 35)
+  
+    xiv. m.c.m(10, 20, 30)
+  
+    xv. m.c.m(21, 28, 42)
+  
+    xvi. m.c.d(6, 18)
+  
+    xvii. m.c.d(9, 27)
+  
+    xviii. m.c.d(15, 25)
+  
+    xix. m.c.d(24, 48)
+  
+    xx. m.c.d(35, 49)
+  
+    xxi. m.c.d(4, 8, 12)
+  
+    xxii. m.c.d(9, 18, 27)
+  
+    xxiii. m.c.d(7, 14, 21)
+  
+    xxiv. m.c.d(20, 40, 50)
+  
+    xxv. m.c.d(16, 32, 48)
+\end{multicols}
+
+
+## Operaciones con fracciones: suma, resta, multiplicación y división 
+
+### Suma de fracciones 
+1. Realiza las siguientes sumas de fracciones
+
+\begin{multicols}{2}
+  
+    i. $\frac{5}{25} + \frac{8}{40}$
+  
+    ii. $\frac{6}{18} + \frac{7}{35}$
+  
+    iii. $\frac{4}{28} + \frac{9}{45}$
+  
+    iv. $\frac{3}{15} + \frac{6}{36}$
+  
+    v. $\frac{18}{36} + \frac{10}{52}$
+  
+    vi. $\frac{7}{21} + \frac{5}{25}$
+  
+    vii. $\frac{32}{14} + \frac{9}{45}$
+  
+    viii. $\frac{68}{48} + \frac{64}{24}$
+  
+    ix. $\frac{36}{45} + \frac{28}{10}$
+  
+    xi. $\frac{32}{27} + \frac{56}{36}$
+  
+    x. $\frac{9}{36} + \frac{24}{64}$
+  
+    xii. $\frac{1}{11} + \frac{8}{40}$
+  
+    xiii. $\frac{15}{25} + \frac{44}{20}$
+  
+    xiv. $\frac{10}{50} + \frac{3}{15}$
+  
+    xv. $\frac{7}{28} + \frac{6}{36}$
+  
+    xvi. $\frac{42}{16} + \frac{9}{45}$
+  
+    xvii. $\frac{6}{30} + \frac{5}{25}$
+  
+    xviii. $\frac{44}{20} + \frac{27}{63}$
+  
+    xix. $\frac{8}{40} + \frac{1}{11}$
+  
+    xx. $\frac{42}{18} + \frac{6}{18}$
+  
+    xxi. $\frac{1}{4} + \frac{2}{3}$
+  
+    xxii. $\frac{3}{5} + \frac{2}{7}$
+  
+    xxiii. $\frac{2}{9} + \frac{5}{6}$
+  
+    xxiv. $\frac{7}{12} + \frac{3}{8}$
+  
+    xxv. $\frac{4}{9} + \frac{3}{5} + \frac{2}{7}$
+  
+    xxvi. $\frac{5}{8} + \frac{3}{10} + \frac{2}{5}$
+  
+    xxvii. $\frac{6}{11} + \frac{4}{9} + \frac{3}{7}$
+  
+    xxviii. $\frac{7}{10} + \frac{5}{8} + \frac{4}{9}$
+  
+    xxix. $\frac{2}{3} + \frac{4}{5} + \frac{6}{7} + \frac{8}{9}$
+  
+    xxx. $\frac{9}{11} + \frac{5}{7} + \frac{3}{4} + \frac{2}{3}$
+  
+    xxxi. $\frac{2}{5} + \frac{7}{9} + \frac{4}{6} + \frac{1}{8}$
+  
+    xxxii. $\frac{5}{8} + \frac{2}{3} + \frac{4}{7} + \frac{6}{9}$
+  
+    xxxiii. $\frac{3}{4} + \frac{4}{5} + \frac{5}{6} + \frac{6}{7} + \frac{7}{8}$
+  
+    xxxiv. $\frac{8}{9} + \frac{7}{10} + \frac{6}{11} + \frac{5}{12} + \frac{4}{13}$
+  
+    xxxv. $\frac{1}{2} + \frac{3}{4} + \frac{5}{6} + \frac{7}{8} + \frac{9}{10}$
+  
+    xxxvi. $\frac{11}{12} + \frac{10}{11} + \frac{9}{10} + \frac{8}{9} + \frac{7}{8}$
+\end{multicols}
+
+
+### Resta  de fracciones
+2. Realiza las siguientes restas de fracciones
+
+\begin{multicols}{2}
+ 
+    i. $\frac{3}{7} - \frac{2}{5}$
+ 
+    ii. $\frac{5}{12} - \frac{1}{6}$
+ 
+    iii. $\frac{2}{9} - \frac{4}{11}$
+ 
+    iv. $\frac{7}{15} - \frac{3}{10}$
+ 
+    v. $\frac{9}{20} - \frac{7}{25}$
+ 
+    vi. $\frac{11}{24} - \frac{5}{18}$
+ 
+    vii. $\frac{3}{14} - \frac{2}{21}$
+ 
+    vii. $\frac{6}{13} - \frac{2}{39}$
+ 
+    ix. $\frac{5}{12} - \frac{3}{8}$
+ 
+    x. $\frac{7}{10} - \frac{4}{25}$
+ 
+    xi. $\frac{19}{22} - \frac{11}{44}$
+ 
+    xii. $\frac{8}{15} - \frac{5}{12}$
+ 
+    xiii. $\frac{14}{27} - \frac{5}{18}$    
+ 
+    xiv. $\frac{21}{35} - \frac{12}{25}$
+ 
+    xv. $\frac{5}{12} - \frac{3}{8}$
+ 
+    xvi. $\frac{11}{20} - \frac{7}{15}$
+ 
+    xvii. $\frac{7}{16} - \frac{3}{10}$
+ 
+    xviii. $\frac{13}{24} - \frac{5}{16}$
+ 
+    xix. $\frac{15}{28} - \frac{9}{35}$
+ 
+    xx. $\frac{17}{36} - \frac{11}{27}$
+ 
+    xxi. $\frac{7}{18} - \frac{5}{12}$
+ 
+    xxii. $\frac{16}{33} - \frac{8}{27}$
+ 
+    xxiii. $\frac{10}{21} - \frac{3}{14}$
+ 
+    xxiv. $\frac{25}{51} - \frac{7}{34}$
+ 
+    xxv. $\frac{17}{38} - \frac{6}{19}$
+ 
+    xxvi. $\frac{3}{4} - \frac{1}{2}$
+ 
+    xxvii. $\frac{5}{7} - \frac{2}{5}$
+ 
+    xxviii. $\frac{7}{9} - \frac{3}{4}$
+ 
+    xxix. $\frac{2}{5} - \frac{1}{3}$
+ 
+    xxx. $\frac{4}{7} - \frac{2}{9} - \frac{1}{3}$
+ 
+    xxxi. $\frac{9}{11} - \frac{3}{8} - \frac{4}{7}$
+ 
+    xxxii. $\frac{5}{6} - \frac{2}{5} - \frac{3}{7}$
+ 
+    xxxiii. $\frac{8}{9} - \frac{4}{7} - \frac{1}{6}$
+ 
+    xxxiv. $\frac{7}{10} - \frac{2}{3} - \frac{3}{8} - \frac{1}{5}$
+ 
+    xxxv. $\frac{11}{12} - \frac{5}{9} - \frac{2}{7} - \frac{3}{11}$
+ 
+    xxxvi. $\frac{4}{5} - \frac{1}{3} - \frac{2}{9} - \frac{5}{8}$
+ 
+    xxxvii. $\frac{9}{10} - \frac{3}{7} - \frac{4}{11} - \frac{1}{8}$
+ 
+    xxxviii. $\frac{5}{6} - \frac{2}{5} - \frac{3}{7} - \frac{4}{9} - \frac{1}{10}$
+ 
+    xxxix. $\frac{7}{8} - \frac{4}{11} - \frac{5}{12} - \frac{3}{7} - \frac{2}{9}$
+ 
+    xl. $\frac{3}{4} - \frac{1}{6} - \frac{5}{8} - \frac{2}{9} - \frac{4}{11}$
+ 
+    xli. $\frac{10}{11} - \frac{3}{8} - \frac{4}{9} - \frac{5}{12} - \frac{1}{13}$
+\end{multicols}
+
+
+
+### Multiplicación  de fracciones
+
+3. Multiplicación de fracciones
+
+\begin{multicols}{2}
+ 
+    i. $\frac{1}{2} \times \frac{3}{4}$
+ 
+    ii. $\frac{2}{5} \times \frac{4}{7}$
+ 
+    iii. $\frac{3}{8} \times \frac{5}{6}$
+ 
+    iv. $\frac{4}{9} \times \frac{2}{3}$
+ 
+    v. $\frac{2}{3} \times \frac{4}{5}$
+ 
+    vi. $\frac{3}{7} \times \frac{5}{8}$
+ 
+    vii. $\frac{4}{9} \times \frac{6}{7}$
+ 
+    viii. $\frac{1}{5} \times \frac{3}{4}$
+ 
+    ix. $\frac{2}{5} \times \frac{3}{7} \times \frac{4}{9}$
+ 
+    x. $\frac{6}{11} \times \frac{4}{9} \times \frac{3}{7}$
+ 
+    xi. $\frac{1}{6} \times \frac{5}{8} \times \frac{2}{4}$
+ 
+    xii.$\frac{3}{8} \times \frac{4}{7} \times \frac{5}{6}$
+ 
+    xiii. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7}$
+ 
+    xiv$\frac{5}{8} \times \frac{2}{9} \times \frac{3}{10}$
+ 
+    xv. $\frac{1}{4} \times \frac{7}{12} \times \frac{3}{5}$
+ 
+    xvi. $\frac{3}{5} \times \frac{4}{7} \times \frac{5}{8}$
+ 
+    xvii. $\frac{2}{5} \times \frac{3}{7} \times \frac{4}{9} \times \frac{5}{11}$
+ 
+    xviii. $\frac{7}{9} \times \frac{5}{8} \times \frac{3}{7} \times \frac{4}{11}$
+ 
+    xix. $\frac{1}{3} \times \frac{4}{5} \times \frac{6}{7} \times \frac{8}{9}$
+ 
+    xx. $\frac{2}{7} \times \frac{3}{8} \times \frac{5}{11} \times \frac{7}{12}$
+ 
+    xxi. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7} \times \frac{5}{9}$
+ 
+    xxii. $\frac{7}{10} \times \frac{5}{8} \times \frac{3}{7} \times \frac{4}{11}$
+ 
+    xxiii. $\frac{1}{4} \times \frac{7}{9} \times \frac{3}{6} \times \frac{5}{8}$
+ 
+    xxiv. $\frac{2}{7} \times \frac{3}{8} \times \frac{5}{9} \times \frac{7}{10}$
+ 
+    xxv. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7} \times \frac{5}{9} \times \frac{6}{11}$
+ 
+    xxvi. $\frac{5}{8} \times \frac{2}{9} \times \frac{3}{10} \times \frac{4}{11} \times \frac{7}{13}$
+ 
+    xxvii. $\frac{1}{4} \times \frac{7}{12} \times \frac{3}{5} \times \frac{5}{8} \times \frac{2}{9}$
+ 
+    xxviii. $\frac{3}{5} \times \frac{4}{7} \times \frac{5}{8} \times \frac{6}{9} \times \frac{7}{10}$
+ 
+    xxix. $\frac{2}{3} \times \frac{3}{5} \times \frac{4}{7} \times \frac{5}{9} \times \frac{6}{11}$
+ 
+    xxx. $\frac{5}{8} \times \frac{2}{9} \times \frac{3}{10} \times \frac{4}{11} \times \frac{7}{12}$
+ 
+    xxxi. $\frac{1}{4} \times \frac{7}{12} \times \frac{3}{5} \times \frac{5}{8} \times \frac{2}{9}$
+ 
+    xxxii. $\frac{3}{5} \times \frac{4}{7} \times \frac{5}{8} \times \frac{6}{9} \times \frac{7}{10}$
+\end{multicols}
+
+
+### División de fracciones
+
+4. División de fracciones
+
+\begin{multicols}{2}
+ 
+    i. $\frac{2}{3} \div \frac{4}{5}$
+ 
+    ii. $\frac{3}{7} \div \frac{5}{8}$
+ 
+    iii. $\frac{4}{9} \div \frac{6}{7}$
+ 
+    iv. $\frac{1}{5} \div \frac{3}{4}$
+ 
+    v. $\frac{3}{4} \div \frac{2}{3}$
+ 
+    vi. $\frac{5}{8} \div \frac{3}{7}$
+ 
+    vii. $\frac{6}{7} \div \frac{4}{9}$
+ 
+    viii. $\frac{2}{3} \div \frac{1}{5}$
+ 
+    ix. $\frac{2}{5} \div (\frac{3}{7} \div \frac{4}{9})$
+ 
+    x. $\frac{6}{11} \div (\frac{4}{9} \div \frac{3}{7})$
+ 
+    xi. $\frac{1}{6} \div (\frac{5}{8} \div \frac{2}{4})$
+ 
+    xii. $\frac{3}{8} \div (\frac{4}{7} \div \frac{5}{6})$
+ 
+    xiii. $\frac{4}{9} \div (\frac{3}{5} \div \frac{2}{7})$
+ 
+    xiv. $\frac{5}{8} \div (\frac{3}{10} \div \frac{2}{5})$
+ 
+    xv. $\frac{6}{11} \div (\frac{4}{9} \div \frac{3}{7})$
+ 
+    xvi. $\frac{7}{10} \div (\frac{5}{8} \div \frac{4}{9})$
+ 
+    xvii. $(\frac{2}{3} \div \frac{3}{5}) \div (\frac{4}{7} \div \frac{5}{9})$
+ 
+    xviii. $(\frac{7}{10} \div \frac{5}{8}) \div (\frac{3}{7} \div \frac{4}{11})$
+ 
+    xix. $(\frac{1}{4} \div \frac{7}{9}) \div (\frac{3}{6} \div \frac{5}{8})$
+ 
+    xx. $(\frac{2}{7} \div \frac{3}{8}) \div (\frac{5}{9} \div \frac{7}{10})$
+ 
+    xxi. $(\frac{2}{3} \div \frac{4}{5}) \div (\frac{6}{7} \div \frac{8}{9})$
+ 
+    xxii. $(\frac{9}{11} \div \frac{5}{7}) \div (\frac{3}{4} \div \frac{2}{3})$
+ 
+    xxiii. $(\frac{2}{5} \div \frac{7}{9}) \div (\frac{4}{6} \div \frac{1}{8})$
+ 
+    xxiv. $(\frac{5}{8} \div \frac{2}{3}) \div (\frac{4}{7} \div \frac{6}{9})$
+ 
+    xxv. $\frac{2}{3} \div (\frac{3}{5} \div \frac{4}{7}) \div (\frac{5}{9} \div \frac{6}{11})$
+ 
+    xxvi. $\frac{5}{8} \div (\frac{2}{9} \div \frac{3}{10}) \div (\frac{4}{11} \div \frac{7}{12})$
+ 
+    xxvii. $\frac{1}{4} \div (\frac{7}{12} \div \frac{3}{5}) \div (\frac{5}{8} \div \frac{2}{9})$
+ 
+    xxviii. $\frac{3}{5} \div (\frac{4}{7} \div \frac{5}{8}) \div (\frac{6}{9} \div \frac{7}{10})$
+ 
+    xxix. $\frac{3}{4} \div (\frac{4}{5} \div \frac{5}{6}) \div (\frac{6}{7} \div \frac{7}{8})$
+ 
+    xxx. $\frac{8}{9} \div (\frac{7}{10} \div \frac{6}{11}) \div (\frac{5}{12} \div \frac{4}{13})$
+ 
+    xxxi. $\frac{1}{2} \div (\frac{3}{4} \div \frac{5}{6}) \div (\frac{7}{8} \div \frac{9}{10})$
+ 
+    xxxii. $\frac{11}{12} \div (\frac{10}{11} \div \frac{9}{10}) (\div \frac{8}{9} \div \frac{7}{8})$
+\end{multicols}
+
+
+# Temas adicionales
+
+## A. Biografías de Científicas Mexicanas y de la Universidad
+
+A continuación les presento una lista con algunas de las científicas mexicanas y de nuestra universidad de las cuales se tendrá que elaborar una biografía.
+
+  A. Nacionales
+ 
+\begin{multicols}{2} 
+
+      1. Silvia Ruíz Acosta
+  
+      2. Ana Meda Guardiola
+  
+      3. María Emilia Caballero
+  
+      4. Patricia Saavedra Barrera
+  
+      5. Eliane Rodríguez
+  
+      6. Gloria Soberón Chávez
+  
+      7. Blanca Haydé Ruiz Ordaz
+  
+      8. Leticia Rocha Zavaleta
+  
+      9. Rosa Laura Camarena Mejía
+  
+      10. María Elena Flores Carrasco
+  
+      11. Atocha Aliseda Llera
+  
+      12. María De Los Ángeles Eraña Lagos
+  
+      13. Vivette García Deister
+  
+      14. Siobhan Fenella Guerrero Mc Manus
+  
+      15. María Teresa Muñoz Sánchez
+\end{multicols}
+
+
+
+
+
+  B. Universidad - Ciencia y Tecnología
+
+\begin{multicols}{2}
+
+      1. Elisa Azuara Liceaga
+  
+      2. Yesica A. Peña Castañeda
+  
+      3. Martha Yocupiccio
+  
+      4. Elizbeth Álvarez Sánchez
+  
+      5. Minerva Camacho Nuez
+  
+      6. Lilia López Casanovas
+  
+      7. Selene Zárate Guerra
+  
+      8. Rosa Margarita Álvarez González 
+  
+      9. Gloria Elena Londoño Mejía
+  
+      10. María Claudia Roldán Ahumada
+\end{multicols}
+
+
+
+  C. Universidad - Ciencias Sociales y Humanidades
+
+\begin{multicols}{2}
+
+      1. Martha Rizo
+  
+      2. Tania Rodríguez
+  
+      3. María Rodríguez
+  
+      4. Erika Araiza Díaz
+  
+      5. Mariana Berlanga Gayón
+  
+      6. Pilar Calveiro Garrido
+  
+      7. Silvia Castellanos Castro
+  
+      8. Hilda Rosina Conde Zambada
+  
+      9. Carmen Ross
+  
+      10. Rodríguez Sánchez María del Carmen
+\end{multicols}
+
+      
+    
+## B. Línea de tiempo de la Matemática
+    
+  En este trabajo el objetivo es revisar el desarrollo de las matemáticas a lo largo de la historia, desde los Griegos hasta la edad media, luego de la edad media hasta la aparición de Galileo Galilei, Isaac Newton, Johannes Keppler entre otros para posteriormente el desarrollo de la ciencia hasta la aparición de Albert Einstein. A continuación  la evolución de las matemáticas hasta Stephen Hawking, y cerrando la revisión con los trabajos de Gregory Perelman y hasta Maryam Mirzakhani.
+
+  Ojalá y la revisión de estas grandes personalidades sirva como incentivo en su deseo de conocer aún más a las Matemáticas y continuar su estudio hasta lograr un dominio satisfactorio de las mismas.
+
+
+## C. Las matemáticas en el cine
+
+  Las matemáticas han tenido un papel central en algunas películas, por lo tanto es importante que conozcamos algunas de ellas que han sido un pilar en la difusión y en algunos casos romantización/dramatización de sus personajes principales.
+
+
+  Las películas de las cuales es preciso que entreguen una reseña son las siguientes:
+
+\begin{multicols}{2}
+
+      1. Donald en el país de las matemáticas
+  
+      2. Nuestro amigo el átomo
+  
+      3. 21 Blackjack
+  
+      4. Una mente brillante
+  
+      5. Mente indomable
+  
+      6. Ramanujan: el hombre que conocía el infinito
+  
+      7. Código Enigma
+  
+      8. La teoría del todo
+\end{multicols}
+
+
+
