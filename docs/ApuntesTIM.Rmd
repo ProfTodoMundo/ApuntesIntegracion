@@ -18,8 +18,8 @@ header-includes:
     \pagestyle{fancy}
     \fancyhf{}
     \fancyfoot[C]{\thepage}
-    \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
-    \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+    \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el Taller de Matemáticas}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+    \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el Taller de Matemáticas}\fi}
   - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
   - \renewcommand{\chaptermark}[1]{\markboth{#1}{}}
   - \renewcommand{\sectionmark}[1]{\markright{#1}}
