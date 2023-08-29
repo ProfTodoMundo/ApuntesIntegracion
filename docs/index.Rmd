@@ -28,6 +28,7 @@ En esta página encontrarás ejercicios adicionales a los vistos en clase
 - [<code>Página personal</code>](https://directorioprofesores.uacm.edu.mx/profesor.html?key=2003080144) - [<code>Twitter</code>](https://twitter.com/carlosmroder) - [<code>Facebook</code>](https://www.facebook.com/TTodoMundo/) - [<code>Linkedin</code>](https://www.linkedin.com/in/carlos-martinez-r/)
 
 ![Acceder al documento](codigo_qr.png){width=200px}
+Puedes descargar el archivo PDF de los apuntes [aquí](https://github.com/ProfTodoMundo/ApuntesIntegracion/blob/PrincipalTIM/docs/ApuntesTIM.pdf).
 
 # Programa del Taller de Matemáticas
 
