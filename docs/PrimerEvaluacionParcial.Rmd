@@ -1,0 +1,82 @@
+---
+title: "Taller de Matemáticas: PRIMER EVALUACION PARCIAL"
+author: "Carlos Ernesto Martinez"
+date: "5-Septiembre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Notas para el curso de Cálculo Diferencial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Notas para el curso de Cálculo Diferencial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+\begin{multicols}{2}
+
+Nombre:
+
+
+Matrícula:
+
+
+Licenciatura: 
+
+Hora de inicio:
+
+Hora de término:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**\footnote{Las matemáticas son el único lenguaje que las personas de todos los países pueden entender. - \textbf{Helbert Hubband}}
+
+1. Considerando los siguientes valores de $n,a$ y $b$ proporciona las coordenadas para cada uno de los puntos $x_i$, para $i=1,2,\ldots,n$, es decir: $x_1,x_2,\ldots,x_n$
+
+
+    i. $n=5, a=3, b=9$, encontrar $x_1,x_2,x_3,x_4$ \textbf{ 1.5 ptos.}
+        
+
+2. Para los siguientes valores determina cuál es el mayor y ubícalos en la recta real
+
+    i. $a = 17/34, b = 36/48$,  \textbf{ 1.5 ptos.}
+   
+    ii. $a = 12/36, b = 40/32$,  \textbf{ 1.5 ptos.}
+
+3. Determina el mínimo común múltiplo
+
+    i. $m.c.d(21, 42)$ \textbf{ 1.5 ptos.}
+  
+    ii. $m.c.d(15, 60, 45)$ \textbf{ 2 ptos.}
+
+4. Determina el Máximo Común Divisor
+
+    i. m.c.m(25, 35) \textbf{ 1.5 ptos.}
+  
+    ii. m.c.d(16, 32, 48) \textbf{ 2 ptos.}
+
+**La suma total de puntos a considerar es de 10**
+
+
+
+
+
+
+  
+
+
