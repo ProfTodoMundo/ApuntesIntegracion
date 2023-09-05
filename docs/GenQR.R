@@ -2,7 +2,8 @@
 # install.packages("qrcode")
 
 library(qrcode)
-setwd("~/Documents/GitHub/ClaseTIMCHyCS/docs")
+#setwd("~/Documents/GitHub/ClaseTIMCHyCS/docs")
+setwd("~/Documents/GitHub/ApuntesIntegracion/docs")
 # URL que deseas codificar en el QR
 url <- "https://proftodomundo.github.io/ApuntesIntegracion/"
 
@@ -16,7 +17,7 @@ plot(qr)
 dev.off()
 
 
-png("codigo_qr.p", 
+png("codigo_qr.png", 
     width = 200, height = 200)
 plot(qr)
 dev.off()
