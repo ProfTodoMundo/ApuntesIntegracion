@@ -756,6 +756,10 @@ A continuación les presento una lista con algunas de las científicas mexicanas
   
       8. La teoría del todo
 
+# Evaluaciones parciales
 
+## Primer evaluación parcial
 
+- [Primer Evaluación Parcial](PrimerEvaluacionParcial.pdf)
+- [Soluciones Primer Evaluación Parcial](SolucionesPrimerParcial.html)
 
