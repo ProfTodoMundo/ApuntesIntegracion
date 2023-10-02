@@ -1,0 +1,106 @@
+---
+title: "Taller de Matemáticas: SEGUNDA EVALUACION PARCIAL"
+author: "Carlos Ernesto Martinez"
+date: "2-Octubre-2023"
+documentclass: article
+output:
+  pdf_document:
+    toc: no  # Cambiado a "no" para eliminar la tabla de contenidos
+    number_sections: no
+header-includes:
+  - \usepackage{multicol}
+  - \usepackage{fancyhdr}
+  - \usepackage[document]{ragged2e}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyfoot[C]{\thepage}
+  - \fancyfoot[L]{\ifodd\value{page}\textit{\small Segunda Evaluación Parcial}\else\textit{\small Carlos E Martínez-Rodríguez}\fi}
+  - \fancyfoot[R]{\ifodd\value{page}\textit{\small Carlos E Martínez-Rodríguez}\else\textit{\small Segunda Evaluación Parcial}\fi}
+  - \usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+  - \fancyhead[LE,RO]{\nouppercase{\rightmark}}
+  - \fancyhead[LO,RE]{\nouppercase{\leftmark}}
+
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+```
+
+
+
+\begin{multicols}{2}
+
+Nombre:
+
+
+Matrícula:
+
+
+Licenciatura: 
+
+Hora de inicio:
+
+Hora de término:
+\end{multicols}
+
+
+**Resuelve los siguientes ejercicios**
+\footnote{No te preocupes por tus dificultades en matemáticas. Te puedo asegurar que las mías son aún mayores. - \textbf{Albert Einstein}}
+
+\begin{enumerate}
+
+\item Realiza las siguientes sumas de fracciones
+
+\begin{enumerate}
+\begin{multicols}{3}
+\item $\frac{5}{25} + \frac{8}{40}${\tiny{\textbf{ 1 pto.}}}
+\item $\frac{7}{40} + \frac{5}{8} + \frac{4}{12}$ {\tiny{\textbf{ 1.5 ptos.}}}
+\end{multicols}
+\end {enumerate}
+
+
+\item Realiza las siguientes restas de fracciones
+\begin{enumerate}
+\begin{multicols}{3}
+\item $\frac{9}{15} - \frac{3}{5} - \frac{4}{20}${\tiny{\textbf{ 1.5 ptos.}}}
+\item $\frac{7}{10} - \frac{2}{15} - \frac{3}{4} - \frac{6}{5}${\tiny{\textbf{ 2 ptos.}}}
+
+\end{multicols}
+
+\end {enumerate}
+
+\item Realiza las siguientes multiplicaciones de fracciones
+
+\begin{enumerate}
+\begin{multicols}{3}
+\item $\frac{7}{5} \times \frac{3}{7} \times \frac{4}{9}${\tiny{\textbf{ 1.5 ptos.}}}
+\item $\frac{2}{3} \times \frac{30}{5} \times \frac{4}{5} \times \frac{7}{9}$ {\tiny{\textbf{ 2 ptos.}}}
+
+\end{multicols}
+
+\end {enumerate}
+
+
+\item Realiza las siguientes divisiones de fracciones
+
+\begin{enumerate}
+\begin{multicols}{3}
+\item $\frac{2}{3} \div \frac{4}{15}${\tiny{\textbf{ 1 pto.}}}
+\item $(\frac{2}{3} \div \frac{4}{6}) \div (\frac{8}{5} \div \frac{6}{9})${\tiny{\textbf{2 ptos.}}}
+
+\end{multicols}
+
+\end {enumerate}
+
+
+\end{enumerate}
+\medskip
+
+\medskip
+
+\begin{center}
+\textbf{La suma total de puntos a considerar es de 10.}
+\end{center}
