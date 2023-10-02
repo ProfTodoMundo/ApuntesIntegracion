@@ -33,17 +33,17 @@ knitr::opts_chunk$set(echo = TRUE)
 
 \begin{multicols}{2}
 
-Nombre:
+Nombre:\underline{\hspace{7cm}}
 
 
-Matrícula:
+Matrícula:\underline{\hspace{7cm}}
 
 
-Licenciatura: 
+Licenciatura: \underline{\hspace{7cm}}
 
-Hora de inicio:
+Hora de inicio:\underline{\hspace{7cm}}
 
-Hora de término:
+Hora de término:\underline{\hspace{7cm}}
 \end{multicols}
 
 

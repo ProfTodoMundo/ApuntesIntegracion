@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 OCT 2023 10:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.4.16)  2 OCT 2023 10:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -749,11 +749,26 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 102.
+(Font)              <10> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 102.
+(Font)              <7> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 102.
+(Font)              <5> on input line 88.
+
+Overfull \hbox (14.06851pt too wide) in paragraph at lines 94--95
+[]\T1/lmr/m/n/10 (-20) Licenciatura: $[]$  
+ []
+
+
+Overfull \hbox (16.97107pt too wide) in paragraph at lines 96--97
+[]\T1/lmr/m/n/10 (-20) Hora de inicio:$[]$  
+ []
+
+
+Overfull \hbox (27.34258pt too wide) in paragraph at lines 98--99
+[]\T1/lmr/m/n/10 (-20) Hora de término:$[]$  
+ []
+
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 159.
 [1
 
@@ -784,7 +799,7 @@ fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 t/fonts/type1/public/lm/lmr7.pfb></usr/local/texlive/2018/texmf-dist/fonts/type
 1/public/lm/lmr8.pfb></usr/local/texlive/2018/texmf-dist/fonts/type1/public/lm/
 lmsy10.pfb>
-Output written on SegundaEvaluacionParcial.pdf (1 page, 213894 bytes).
+Output written on SegundaEvaluacionParcial.pdf (1 page, 213975 bytes).
 PDF statistics:
  77 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
